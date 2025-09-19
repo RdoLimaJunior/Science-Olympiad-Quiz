@@ -5,7 +5,7 @@ import StudyScreen from './components/StudyScreen';
 import PerformanceScreen from './components/PerformanceScreen';
 import type { Question, UserAnswer, QuizResultHistory } from './types';
 import { LanguageProvider, useLanguage } from './contexts/LanguageContext';
-import LanguageSelector from './components/LanguageSelector';
+import Header from './components/LanguageSelector';
 
 type AppScreen = 'home' | 'practice' | 'study' | 'performance';
 
@@ -36,7 +36,7 @@ function AppContent() {
     setCurrentScreen(screen);
   }, []);
 
-  const handleGoBack = useCallback(() => {
+  const handleGoHome = useCallback(() => {
     setCurrentScreen('home');
   }, []);
 
@@ -59,11 +59,11 @@ function AppContent() {
   const renderContent = () => {
     switch (currentScreen) {
       case 'practice':
-        return <PracticeFlow onGoBack={handleGoBack} onQuizComplete={handleQuizComplete} />;
+        return <PracticeFlow onGoBack={handleGoHome} onQuizComplete={handleQuizComplete} />;
       case 'study':
-        return <StudyScreen onGoBack={handleGoBack} />;
+        return <StudyScreen onGoBack={handleGoHome} />;
       case 'performance':
-        return <PerformanceScreen history={history} onGoBack={handleGoBack} />;
+        return <PerformanceScreen history={history} onGoBack={handleGoHome} />;
       case 'home':
       default:
         return <HomeScreen onNavigate={handleNavigate} />;
@@ -71,9 +71,9 @@ function AppContent() {
   };
 
   return (
-    <main className="min-h-screen text-slate-100 font-sans bg-slate-900">
+    <main className="min-h-screen text-slate-100 font-sans bg-slate-900 pt-16">
+      <Header onGoHome={handleGoHome} />
       {renderContent()}
-      <LanguageSelector />
     </main>
   );
 }
