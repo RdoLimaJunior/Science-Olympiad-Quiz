@@ -1,4 +1,3 @@
-import React from 'react';
 import { BookOpenIcon, PencilSquareIcon, ChartBarIcon } from './icons';
 
 interface HomeScreenProps {
@@ -13,9 +12,9 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onNavigate }) => {
         <p className="text-slate-300 mb-8 text-lg">Seu centro de preparação para a Vanda</p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <NavButton onClick={() => onNavigate('study')} text="Estudar" icon={<BookOpenIcon />} color="teal" />
-          <NavButton onClick={() => onNavigate('practice')} text="Praticar" icon={<PencilSquareIcon />} color="cyan" />
-          <NavButton onClick={() => onNavigate('performance')} text="Meu Desempenho" icon={<ChartBarIcon />} color="sky" />
+          <NavButton onClick={() => onNavigate('study')} text="Estudar" icon={<BookOpenIcon className="w-8 h-8"/>} color="teal" />
+          <NavButton onClick={() => onNavigate('practice')} text="Praticar" icon={<PencilSquareIcon className="w-8 h-8"/>} color="cyan" />
+          <NavButton onClick={() => onNavigate('performance')} text="Meu Desempenho" icon={<ChartBarIcon className="w-8 h-8"/>} color="sky" />
         </div>
       </div>
     </div>
@@ -23,17 +22,18 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onNavigate }) => {
 };
 
 const NavButton: React.FC<{onClick: () => void; text: string; icon: React.ReactNode; color: string}> = ({ onClick, text, icon, color }) => {
-    const colorClasses = {
+    const colorClasses: Record<string, string> = {
         teal: 'bg-teal-500/80 hover:bg-teal-500/100',
         cyan: 'bg-cyan-500/80 hover:bg-cyan-500/100',
         sky: 'bg-sky-500/80 hover:bg-sky-500/100',
     };
+
     return (
         <button
             onClick={onClick}
             className={`flex items-center justify-center gap-4 text-white font-bold py-6 px-6 rounded-lg text-xl transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg hover:shadow-xl ${colorClasses[color]}`}
         >
-            <div className="w-8 h-8">{icon}</div>
+            {icon}
             <span>{text}</span>
         </button>
     );

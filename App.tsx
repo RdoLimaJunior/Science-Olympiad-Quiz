@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import HomeScreen from './components/HomeScreen';
 import PracticeFlow from './components/PracticeFlow';
 import StudyScreen from './components/StudyScreen';
