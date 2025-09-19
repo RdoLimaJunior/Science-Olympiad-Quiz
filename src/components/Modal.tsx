@@ -26,13 +26,13 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, onConfirm, title, childr
             onClick={onClose}
             className="bg-slate-600 hover:bg-slate-500 text-white font-bold py-2 px-6 rounded-lg transition"
           >
-            Cancel
+            Cancelar
           </button>
           <button
             onClick={onConfirm}
             className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-lg transition"
           >
-            Confirm
+            Confirmar
           </button>
         </div>
       </div>

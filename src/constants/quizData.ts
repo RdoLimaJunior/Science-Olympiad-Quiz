@@ -4,639 +4,639 @@ export const allQuizzes: Record<string, Question[]> = {
   "2024": [
     {
       id: 1,
-      text: "A group chose a plant called Matteuccia struthiopteris (Ostrich Fern). What should the group expect regarding its reproductive and structural characteristics as they observe the plant grow?",
+      text: "Um grupo escolheu uma planta chamada Matteuccia struthiopteris (Samambaia-avestruz). O que o grupo deve esperar em relação às suas características reprodutivas e estruturais ao observar o crescimento da planta?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-18.07.22.png",
       options: [
-        { id: 'A', text: "The plant will exhibit flowering and seed production, with colourful petals." },
-        { id: 'B', text: "The plant will show growth of compound leaves and reproduce via spores." },
-        { id: 'C', text: "The plant will develop thick, woody stems and large fruit bodies as its primary means of reproduction." },
-        { id: 'D', text: "The plant will display long tube-like structures for trapping insects, relying on them for nutrition and reproduction." }
+        { id: 'A', text: "A planta exibirá flores e produzirá sementes, com pétalas coloridas." },
+        { id: 'B', text: "A planta mostrará o crescimento de folhas compostas e se reproduzirá por meio de esporos." },
+        { id: 'C', text: "A planta desenvolverá caules grossos e lenhosos e grandes corpos de frutificação como seu principal meio de reprodução." },
+        { id: 'D', text: "A planta exibirá longas estruturas em forma de tubo para capturar insetos, dependendo deles para nutrição e reprodução." }
       ],
       correctAnswerId: 'B',
-      explanation: "Matteuccia struthiopteris, or Ostrich Fern, is a type of fern. Ferns reproduce through spores, not flowers and seeds. They grow compound leaves. Therefore, option B is the correct choice."
+      explanation: "Matteuccia struthiopteris, ou Samambaia-avestruz, é um tipo de samambaia. As samambaias se reproduzem através de esporos, não de flores e sementes. Elas desenvolvem folhas compostas. Portanto, a opção B é a escolha correta."
     },
     {
       id: 2,
-      text: "Fertilisation is an important process in sexual reproduction. Choose the correct group of animals undergoing internal and external fertilisation processes based on the table.",
+      text: "A fertilização é um processo importante na reprodução sexuada. Escolha o grupo correto de animais que passam por processos de fertilização interna e externa com base na tabela.",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-18.23.08.png",
       options: [
-        { id: 'A', text: "Internal: Only Fishes / External: Only Mammals" },
-        { id: 'B', text: "Internal: Both Fishes and Amphibians / External: Reptiles, Birds and Mammals" },
-        { id: 'C', text: "Internal: Reptiles, Birds and Mammals / External: Both Fishes and Amphibians" },
-        { id: 'D', text: "Internal: Only Mammals / External: Only Amphibians" }
+        { id: 'A', text: "Interna: Apenas Peixes / Externa: Apenas Mamíferos" },
+        { id: 'B', text: "Interna: Peixes e Anfíbios / Externa: Répteis, Aves e Mamíferos" },
+        { id: 'C', text: "Interna: Répteis, Aves e Mamíferos / Externa: Peixes e Anfíbios" },
+        { id: 'D', text: "Interna: Apenas Mamíferos / Externa: Apenas Anfíbios" }
       ],
       correctAnswerId: 'C',
-      explanation: "External fertilization occurs in animals like Fishes and Amphibians. Internal fertilization occurs in Reptiles, Birds, and Mammals. This makes option C the correct choice."
+      explanation: "A fertilização externa ocorre em animais como Peixes e Anfíbios. A fertilização interna ocorre em Répteis, Aves e Mamíferos. Isso torna a opção C a escolha correta."
     },
     {
       id: 3,
-      text: "A student placed three aluminium objects (P: foil, Q: empty can, R: solid block) in a beaker of water. Which option correctly describes their behavior after 2 minutes?",
+      text: "Um estudante colocou três objetos de alumínio (P: folha, Q: lata vazia, R: bloco sólido) em um béquer com água. Qual opção descreve corretamente o comportamento deles após 2 minutos?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-18.24.00.png",
       options: [
-        { id: 'A', text: "All three objects will sink to the bottom." },
-        { id: 'B', text: "The foil (P) and the block (R) will sink, while the can (Q) floats." },
-        { id: 'C', text: "The block (R) will sink, while the foil (P) and the can (Q) float." },
-        { id: 'D', text: "All three objects will float on the surface." }
+        { id: 'A', text: "Todos os três objetos afundarão até o fundo." },
+        { id: 'B', text: "A folha (P) e o bloco (R) afundarão, enquanto a lata (Q) flutuará." },
+        { id: 'C', text: "O bloco (R) afundará, enquanto a folha (P) e a lata (Q) flutuarão." },
+        { id: 'D', text: "Todos os três objetos flutuarão na superfície." }
       ],
       correctAnswerId: 'C',
-      explanation: "The solid aluminium block (R) is denser than water and will sink. The hollow can (Q) and the lightweight foil (P) have a lower overall density than water (due to trapped air and shape), causing them to float."
+      explanation: "O bloco sólido de alumínio (R) é mais denso que a água e afundará. A lata oca (Q) e a folha leve (P) têm uma densidade geral menor que a da água (devido ao ar preso e à forma), o que as faz flutuar."
     },
     {
       id: 4,
-      text: "Consider the different groups of animals below. Which of the following correctly identifies animals based on their ability to internally regulate their body temperature? (Keys: ✓ - Yes; × – No)",
+      text: "Considere os diferentes grupos de animais abaixo. Qual das opções identifica corretamente os animais com base na sua capacidade de regular internamente a temperatura corporal? (Legenda: ✓ - Sim; × – Não)",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-18.26.25-1024x369.png",
       options: [
-        { id: 'A', text: "Group W" },
-        { id: 'B', text: "Group Y" },
-        { id: 'C', text: "Group X" },
-        { id: 'D', text: "Group Z" }
+        { id: 'A', text: "Grupo W" },
+        { id: 'B', text: "Grupo Y" },
+        { id: 'C', text: "Grupo X" },
+        { id: 'D', text: "Grupo Z" }
       ],
       correctAnswerId: 'D',
-      explanation: "Warm-blooded animals (endotherms) like mammals and birds can regulate their temperature. Cold-blooded animals (ectotherms) like fish, amphibians, and reptiles cannot. Group Z contains a shark (fish) and a turtle (reptile), both of which are cold-blooded and rely on external heat."
+      explanation: "Animais de sangue quente (endotérmicos) como mamíferos e aves podem regular sua temperatura. Animais de sangue frio (ectotérmicos) como peixes, anfíbios e répteis não podem. O Grupo Z contém um tubarão (peixe) e uma tartaruga (réptil), ambos de sangue frio e que dependem do calor externo."
     },
     {
       id: 5,
-      text: "Which configuration correctly displays the internal arrangement of magnets when the mag-switch is turned on to attract the steel rod?",
+      text: "Qual configuração exibe corretamente o arranjo interno dos ímãs quando o interruptor magnético é ligado para atrair a haste de aço?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-18.29.16.png",
       options: [
-        { id: 'A', text: "Configuration A" },
-        { id: 'B', text: "Configuration B" },
-        { id: 'C', text: "Configuration C" },
-        { id: 'D', text: "Configuration D" }
+        { id: 'A', text: "Configuração A" },
+        { id: 'B', text: "Configuração B" },
+        { id: 'C', text: "Configuração C" },
+        { id: 'D', text: "Configuração D" }
       ],
       correctAnswerId: 'C',
-      explanation: "When the switch is on, the magnets align so their fields combine to create a strong external magnetic field. Option C shows the correct arrangement where opposite poles (N and S) are near each other, creating the desired field to attract the steel rod."
+      explanation: "Quando o interruptor está ligado, os ímãs se alinham para que seus campos se combinem e criem um campo magnético externo forte. A opção C mostra o arranjo correto onde polos opostos (N e S) estão próximos, criando o campo desejado para atrair a haste de aço."
     },
     {
-      id: 6,
-      text: "Which property is being tested in the experimental setup where a beaker of water is placed on 'Material X' supported by a stand?",
-      image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-18.31.29.png",
-      options: [
-        { id: 'A', text: "Flexibility" },
-        { id: 'B', text: "Strength" },
-        { id: 'C', text: "Waterproof ability" },
-        { id: 'D', text: "Transparency" }
-      ],
-      correctAnswerId: 'B',
-      explanation: "The setup is designed to test the strength of Material X by observing how much mass (the beaker filled with water) it can support without failing. Its ability to hold weight is directly related to its strength."
+        id: 6,
+        text: "Qual propriedade está sendo testada na montagem experimental onde um béquer de água é colocado sobre o 'Material X' suportado por um suporte?",
+        image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-18.31.29.png",
+        options: [
+            { id: 'A', text: "Flexibilidade" },
+            { id: 'B', text: "Resistência" },
+            { id: 'C', text: "Impermeabilidade" },
+            { id: 'D', text: "Transparência" }
+        ],
+        correctAnswerId: 'B',
+        explanation: "A montagem foi projetada para testar a resistência do Material X, observando quanta massa (o béquer com água) ele pode suportar sem falhar. Sua capacidade de suportar peso está diretamente relacionada à sua resistência."
     },
     {
-      id: 7,
-      text: "A Bristlecone Pine tree can live for almost 5,000 years and withstand harsh conditions. Which explanation describes its unique survival characteristics?",
-      image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-18.33.36.png",
-      options: [
-        { id: 'A', text: "It transforms into a non-living being by losing all its leaves." },
-        { id: 'B', text: "It has a unique form of photosynthesis that does not require water." },
-        { id: 'C', text: "It adapts itself as a non-living being, no longer requiring nutrients." },
-        { id: 'D', text: "It has developed a thick, non-living bark layer that insulates it and minimises water loss." }
-      ],
-      correctAnswerId: 'D',
-      explanation: "The Bristlecone Pine has evolved unique survival adaptations. Its thick, non-living bark layer insulates its living tissues, protecting them from temperature fluctuations and reducing water loss, which is crucial during periods of drought."
+        id: 7,
+        text: "Uma árvore de Pinho Bristlecone pode viver por quase 5.000 anos e suportar condições adversas. Qual explicação descreve suas características únicas de sobrevivência?",
+        image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-18.33.36.png",
+        options: [
+            { id: 'A', text: "Ele se transforma em um ser não vivo ao perder todas as suas folhas." },
+            { id: 'B', text: "Possui uma forma única de fotossíntese que não requer água." },
+            { id: 'C', text: "Ele se adapta como um ser não vivo, não necessitando mais de nutrientes." },
+            { id: 'D', text: "Desenvolveu uma camada espessa de casca não viva que o isola e minimiza a perda de água." }
+        ],
+        correctAnswerId: 'D',
+        explanation: "O Pinho Bristlecone evoluiu adaptações de sobrevivência únicas. Sua camada espessa de casca não viva isola seus tecidos vivos, protegendo-os de flutuações de temperatura e reduzindo a perda de água, o que é crucial durante períodos de seca."
     },
     {
-      id: 8,
-      text: "Which statement is correct for the characteristics of insects?",
-      options: [
-        { id: 'A', text: "Insects possess an exoskeleton made of chitin, which provides body support and protection." },
-        { id: 'B', text: "Insects have an internal skeleton that supports their body structure." },
-        { id: 'C', text: "Insects use chromophores in their skin to change color." },
-        { id: 'D', text: "Insects breathe through lungs, similar to vertebrates." }
-      ],
-      correctAnswerId: 'A',
-      explanation: "Statement 1 is correct: Insects have an exoskeleton made of chitin. Statement 2 is incorrect; they have an external skeleton. Statement 3 is incorrect; they don't use chromophores for color change. Statement 4 is incorrect; they use a system of tracheae, not lungs."
+        id: 8,
+        text: "Qual afirmação está correta sobre as características dos insetos?",
+        options: [
+            { id: 'A', text: "Os insetos possuem um exoesqueleto de quitina, que fornece suporte e proteção ao corpo." },
+            { id: 'B', text: "Os insetos têm um esqueleto interno que sustenta a estrutura do corpo." },
+            { id: 'C', text: "Os insetos usam cromóforos na pele para mudar de cor." },
+            { id: 'D', text: "Os insetos respiram por pulmões, semelhante aos vertebrados." }
+        ],
+        correctAnswerId: 'A',
+        explanation: "A afirmação 1 está correta: os insetos têm um exoesqueleto de quitina. A afirmação 2 está incorreta; eles têm um esqueleto externo. A afirmação 3 está incorreta; eles não usam cromóforos para mudar de cor. A afirmação 4 está incorreta; eles usam um sistema de traqueias, não pulmões."
     },
     {
-      id: 9,
-      text: "Which of the following correctly represents the aim of the experiment where a student wraps a varying number of copper coils around an iron nail and measures the time it takes to pick up 10 paper clips?",
-      options: [
-        { id: 'A', text: "To investigate the relationship between the number of coils in an electromagnet and its magnetic strength." },
-        { id: 'B', text: "To see how long an electromagnet can hold paper clips." },
-        { id: 'C', text: "To test the relationship between battery size and magnetic strength." },
-        { id: 'D', text: "To measure how distance affects the speed of attraction." }
-      ],
-      correctAnswerId: 'A',
-      explanation: "The experiment's aim is to investigate how the number of coils (the independent variable) affects its magnetic strength, measured by how quickly it can pick up a set number of paper clips (the dependent variable)."
+        id: 9,
+        text: "Qual das seguintes opções representa corretamente o objetivo do experimento em que um estudante enrola um número variável de bobinas de cobre em um prego de ferro e mede o tempo que leva para pegar 10 clipes de papel?",
+        options: [
+            { id: 'A', text: "Investigar a relação entre o número de bobinas em um eletroímã e sua força magnética." },
+            { id: 'B', text: "Ver por quanto tempo um eletroímã pode segurar clipes de papel." },
+            { id: 'C', text: "Testar a relação entre o tamanho da bateria e a força magnética." },
+            { id: 'D', text: "Medir como a distância afeta a velocidade de atração." }
+        ],
+        correctAnswerId: 'A',
+        explanation: "O objetivo do experimento é investigar como o número de bobinas (a variável independente) afeta sua força magnética, medida pela rapidez com que ele pode pegar um número definido de clipes de papel (a variável dependente)."
     },
     {
-      id: 10,
-      text: "Ginger and Turmeric are plants that store bioactive compounds (Gingerol and Curcumin) in their underground structures. What are these storage organs called?",
-      image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-18.38.54.png",
-      options: [
-        { id: 'A', text: "Bulb" },
-        { id: 'B', text: "Tuber" },
-        { id: 'C', text: "Rhizome" },
-        { id: 'D', text: "Underground root" }
-      ],
-      correctAnswerId: 'C',
-      explanation: "The rhizome is the underground stem that serves as the storage organ for both ginger and turmeric, where their respective bioactive compounds are concentrated. Bulbs are for plants like onions, and tubers for plants like potatoes."
+        id: 10,
+        text: "Gengibre e Cúrcuma são plantas que armazenam compostos bioativos (Gingerol e Curcumina) em suas estruturas subterrâneas. Como são chamados esses órgãos de armazenamento?",
+        image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-18.38.54.png",
+        options: [
+            { id: 'A', text: "Bulbo" },
+            { id: 'B', text: "Tubérculo" },
+            { id: 'C', text: "Rizoma" },
+            { id: 'D', text: "Raiz subterrânea" }
+        ],
+        correctAnswerId: 'C',
+        explanation: "O rizoma é o caule subterrâneo que serve como órgão de armazenamento tanto para o gengibre quanto para a cúrcuma, onde seus respectivos compostos bioativos são concentrados. Bulbos são para plantas como cebolas, e tubérculos para plantas como batatas."
     },
     {
-      id: 11,
-      text: "Which statement best explains the observed growth behaviour of yeast cells in solutions P (no glucose/protein) and Q (with glucose/protein) based on the provided graphs?",
-      image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-18.42.38.png",
-      options: [
-          { id: 'A', text: "The growth was better in solution Q due to the presence of minerals and vitamins." },
-          { id: 'B', text: "Yeast in solution P had poor growth due to inhibitory ingredients." },
-          { id: 'C', text: "The growth was better in solution Q due to the absence of energy-providing ingredients." },
-          { id: 'D', text: "Yeast in solution P had poor growth due to the absence of essential energy-providing ingredients." }
-      ],
-      correctAnswerId: 'D',
-      explanation: "Yeast growth in Solution P was poor because it lacked energy-providing ingredients like glucose and proteins. Solution Q contained these necessary nutrients, which allowed the yeast cells to thrive, as shown in the graph."
+        id: 11,
+        text: "Qual afirmação melhor explica o comportamento de crescimento observado das células de levedura nas soluções P (sem glicose/proteína) e Q (com glicose/proteína) com base nos gráficos fornecidos?",
+        image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-18.42.38.png",
+        options: [
+            { id: 'A', text: "O crescimento foi melhor na solução Q devido à presença de minerais e vitaminas." },
+            { id: 'B', text: "A levedura na solução P teve um crescimento fraco devido a ingredientes inibidores." },
+            { id: 'C', text: "O crescimento foi melhor na solução Q devido à ausência de ingredientes que fornecem energia." },
+            { id: 'D', text: "A levedura na solução P teve um crescimento fraco devido à ausência de ingredientes essenciais que fornecem energia." }
+        ],
+        correctAnswerId: 'D',
+        explanation: "O crescimento da levedura na Solução P foi fraco porque faltavam ingredientes que fornecem energia, como glicose e proteínas. A Solução Q continha esses nutrientes necessários, o que permitiu que as células de levedura prosperassem, como mostrado no gráfico."
     },
     {
-      id: 12,
-      text: "Based on the text about cheese making, choose the correct role of Lactobacillus bacteria.",
-      options: [
-          { id: 'A', text: "It determines the sugar content in cheese." },
-          { id: 'B', text: "The number of bacteria is key for cheese packaging." },
-          { id: 'C', text: "It reduces fermentation time by curdling milk." },
-          { id: 'D', text: "It influences fermentation time by producing acids and gases that add to the cheese's characteristics." }
-      ],
-      correctAnswerId: 'D',
-      explanation: "The selected Lactobacillus species plays a crucial role in influencing fermentation time by producing byproducts like lactic acid and carbon dioxide. These byproducts contribute to the final flavor, texture, and ripeness of the cheese."
+        id: 12,
+        text: "Com base no texto sobre a fabricação de queijo, escolha o papel correto da bactéria Lactobacillus.",
+        options: [
+            { id: 'A', text: "Determina o teor de açúcar no queijo." },
+            { id: 'B', text: "O número de bactérias é fundamental para a embalagem do queijo." },
+            { id: 'C', text: "Reduz o tempo de fermentação coalhando o leite." },
+            { id: 'D', text: "Influencia o tempo de fermentação produzindo ácidos e gases que contribuem para as características do queijo." }
+        ],
+        correctAnswerId: 'D',
+        explanation: "A espécie selecionada de Lactobacillus desempenha um papel crucial ao influenciar o tempo de fermentação, produzindo subprodutos como ácido lático e dióxido de carbono. Esses subprodutos contribuem para o sabor, textura e maturação final do queijo."
     },
     {
-      id: 13,
-      text: "A sugar company's performance changed significantly after year 5. Based on the graph and information about sugarcane, what is the most relevant change the company implemented?",
-      image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-18.48.07.png",
-      options: [
-          { id: 'A', text: "The company used preserved roots, flowers, and seeds to start a farm." },
-          { id: 'B', text: "The company sowed germinating seeds." },
-          { id: 'C', text: "The company planted sugarcane stem cuttings to establish its own farm." },
-          { id: 'D', text: "The company shifted to using leaves instead of stems." }
-      ],
-      correctAnswerId: 'C',
-      explanation: "The sharp increase in performance from the 6th year is best explained by the adoption of the stem-cutting method. This is a common and efficient practice for sugarcane cultivation, allowing the company to establish its own reliable source."
+        id: 13,
+        text: "O desempenho de uma empresa de açúcar mudou significativamente após o ano 5. Com base no gráfico e nas informações sobre a cana-de-açúcar, qual é a mudança mais relevante que a empresa implementou?",
+        image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-18.48.07.png",
+        options: [
+            { id: 'A', text: "A empresa usou raízes, flores e sementes preservadas para iniciar uma fazenda." },
+            { id: 'B', text: "A empresa semeou sementes em germinação." },
+            { id: 'C', text: "A empresa plantou mudas de caule de cana-de-açúcar para estabelecer sua própria fazenda." },
+            { id: 'D', text: "A empresa passou a usar folhas em vez de caules." }
+        ],
+        correctAnswerId: 'C',
+        explanation: "O aumento acentuado no desempenho a partir do 6º ano é melhor explicado pela adoção do método de plantio de mudas de caule. Esta é uma prática comum e eficiente para o cultivo de cana-de-açúcar, permitindo que a empresa estabeleça sua própria fonte confiável."
     },
     {
-      id: 14,
-      text: "In the experiment with soaked black lentils in a sealed flask with potassium hydroxide, what process created the vacuum?",
-      image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-18.51.11.png",
-      options: [
-          { id: 'A', text: "The lentils underwent germination and respiration, releasing carbon dioxide which was absorbed by the potassium hydroxide." },
-          { id: 'B', text: "The vacuum was created by gaseous exchange on the lentil's outer surface." },
-          { id: 'C', text: "The lentils absorbed carbon dioxide for photosynthesis." },
-          { id: 'D', text: "The lentils absorbed carbon dioxide and released oxygen." }
-      ],
-      correctAnswerId: 'A',
-      explanation: "During germination, lentils respire, breaking down stored food and releasing carbon dioxide. The potassium hydroxide in the test tube absorbs this CO2, reducing the gas volume and pressure inside the flask, creating a vacuum."
+        id: 14,
+        text: "No experimento com lentilhas pretas embebidas em um frasco selado com hidróxido de potássio, qual processo criou o vácuo?",
+        image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-18.51.11.png",
+        options: [
+            { id: 'A', text: "As lentilhas passaram por germinação e respiração, liberando dióxido de carbono que foi absorvido pelo hidróxido de potássio." },
+            { id: 'B', text: "O vácuo foi criado pela troca gasosa na superfície externa da lentilha." },
+            { id: 'C', text: "As lentilhas absorveram dióxido de carbono para a fotossíntese." },
+            { id: 'D', text: "As lentilhas absorveram dióxido de carbono e liberaram oxigênio." }
+        ],
+        correctAnswerId: 'A',
+        explanation: "Durante a germinação, as lentilhas respiram, quebrando os alimentos armazenados e liberando dióxido de carbono. O hidróxido de potássio no tubo de ensaio absorve esse CO2, reduzindo o volume de gás e a pressão dentro do frasco, criando um vácuo."
     },
     {
-      id: 15,
-      text: "Based on the student's observations with an iron ball, a magnet, and different plates, which statement is true?",
-      image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-18.55.29.png",
-      options: [
-          { id: 'A', text: "The iron ball was always attracted, except with a copper plate where it was repelled." },
-          { id: 'B', text: "The iron ball was repelled with a glass plate and attracted to all others." },
-          { id: 'C', text: "The iron ball showed no interaction with the magnet when a steel plate was used." },
-          { id: 'D', text: "The iron ball was attracted with a nickel plate but repelled with a steel plate." }
-      ],
-      correctAnswerId: 'C',
-      explanation: "Steel and Nickel are magnetic materials that block or redirect the magnetic field, leading to no interaction between the iron ball and the magnet. Glass and Copper are non-magnetic, so they allow the magnetic force to pass through, attracting the ball."
+        id: 15,
+        text: "Com base nas observações do estudante com uma bola de ferro, um ímã e diferentes placas, qual afirmação é verdadeira?",
+        image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-18.55.29.png",
+        options: [
+            { id: 'A', text: "A bola de ferro foi sempre atraída, exceto com uma placa de cobre onde foi repelida." },
+            { id: 'B', text: "A bola de ferro foi repelida com uma placa de vidro e atraída por todas as outras." },
+            { id: 'C', text: "A bola de ferro não mostrou interação com o ímã quando uma placa de aço foi usada." },
+            { id: 'D', text: "A bola de ferro foi atraída com uma placa de níquel, mas repelida com uma placa de aço." }
+        ],
+        correctAnswerId: 'C',
+        explanation: "Aço e Níquel são materiais magnéticos que bloqueiam ou redirecionam o campo magnético, levando a nenhuma interação entre a bola de ferro e o ímã. Vidro e Cobre são não magnéticos, então eles permitem que a força magnética passe, atraindo a bola."
     },
     {
-      id: 16,
-      text: "Homing pigeons have a remarkable ability to navigate. Based on the information provided, choose the correct statement.",
-      image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-19.00.05.png",
-      options: [
-          { id: 'A', text: "The bird shows adaptive navigating instincts by responding to environmental stimuli like the Earth's magnetic field." },
-          { id: 'B', text: "The bird demonstrates seasonal migration using the magnetic field." },
-          { id: 'C', text: "The bird undergoes remarkable growth during its long journeys." },
-          { id: 'D', text: "The bird's navigation is a safeguarding characteristic, highlighting a protective role of its instincts for survival." }
-      ],
-      correctAnswerId: 'D',
-      explanation: "The magnetite beak and specialized eye cells help the bird navigate, ensuring it doesn't get lost during long flights. This adaptation is crucial for the bird's survival, highlighting the protective characteristics of its unique navigating abilities."
+        id: 16,
+        text: "Os pombos-correio têm uma notável capacidade de navegação. Com base nas informações fornecidas, escolha a afirmação correta.",
+        image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-19.00.05.png",
+        options: [
+            { id: 'A', text: "A ave mostra instintos de navegação adaptativos respondendo a estímulos ambientais como o campo magnético da Terra." },
+            { id: 'B', text: "A ave demonstra migração sazonal usando o campo magnético." },
+            { id: 'C', text: "A ave passa por um crescimento notável durante suas longas jornadas." },
+            { id: 'D', text: "A navegação da ave é uma característica de salvaguarda, destacando um papel protetor de seus instintos para a sobrevivência." }
+        ],
+        correctAnswerId: 'D',
+        explanation: "O bico de magnetita e as células oculares especializadas ajudam a ave a navegar, garantindo que ela não se perca durante voos longos. Essa adaptação é crucial para a sobrevivência da ave, destacando as características protetoras de suas habilidades únicas de navegação."
     },
     {
-      id: 17,
-      text: "How does the seed-breaking behaviour of ants differ between dicot (peas, coriander) and monocot (rice, corn) seeds to prevent germination?",
-      options: [
-          { id: 'A', text: "Ants break both dicot and monocot seeds into four halves to prevent germination." },
-          { id: 'B', text: "Ants break dicot seeds into four halves, but monocot seeds into two halves." },
-          { id: 'C', text: "Ants break dicot seeds into four parts, but break monocot seeds into two halves." },
-          { id: 'D', text: "Ants break dicot seeds but leave monocot seeds intact." }
-      ],
-      correctAnswerId: 'A',
-      explanation: "Ants break both dicot and monocot seeds into four halves. This is because both types of seeds can still sprout even when halved, so the ants take further steps to ensure they don't germinate."
+        id: 17,
+        text: "Como o comportamento das formigas de quebrar sementes difere entre sementes dicotiledôneas (ervilhas, coentro) e monocotiledôneas (arroz, milho) para impedir a germinação?",
+        options: [
+            { id: 'A', text: "As formigas quebram tanto as sementes dicotiledôneas quanto as monocotiledôneas em quatro metades para impedir a germinação." },
+            { id: 'B', text: "As formigas quebram as sementes dicotiledôneas em quatro metades, mas as sementes monocotiledôneas em duas metades." },
+            { id: 'C', text: "As formigas quebram as sementes dicotiledôneas em quatro partes, mas quebram as sementes monocotiledôneas em duas metades." },
+            { id: 'D', text: "As formigas quebram as sementes dicotiledôneas, mas deixam as sementes monocotiledôneas intactas." }
+        ],
+        correctAnswerId: 'A',
+        explanation: "As formigas quebram tanto as sementes dicotiledôneas quanto as monocotiledôneas em quatro metades. Isso ocorre porque ambos os tipos de sementes ainda podem brotar mesmo quando partidas ao meio, então as formigas tomam medidas adicionais para garantir que não germinem."
     },
     {
-      id: 18,
-      text: "Gynandromorphy in butterflies is a condition with both male and female characteristics. At which stage of the butterfly's life cycle are these characteristics most likely to become recognizable?",
-      image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-19.05.08.png",
-      options: [
-          { id: 'A', text: "Adult stage" },
-          { id: 'B', text: "Larva stage" },
-          { id: 'C', text: "Pupa stage" },
-          { id: 'D', text: "Egg stage" }
-      ],
-      correctAnswerId: 'C',
-      explanation: "Gynandromorphy is most likely to become visible during the pupa stage. This is when the butterfly undergoes metamorphosis and develops its distinguishable adult morphological characteristics, revealing the dual-gender traits."
+        id: 18,
+        text: "O ginandromorfismo em borboletas é uma condição com características tanto masculinas quanto femininas. Em qual estágio do ciclo de vida da borboleta essas características são mais prováveis de se tornarem reconhecíveis?",
+        image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-19.05.08.png",
+        options: [
+            { id: 'A', text: "Estágio adulto" },
+            { id: 'B', text: "Estágio de larva" },
+            { id: 'C', text: "Estágio de pupa" },
+            { id: 'D', text: "Estágio de ovo" }
+        ],
+        correctAnswerId: 'C',
+        explanation: "O ginandromorfismo é mais provável de se tornar visível durante o estágio de pupa. É quando a borboleta passa pela metamorfose e desenvolve suas características morfológicas adultas distintas, revelando os traços de gênero duplo."
     },
     {
-      id: 19,
-      text: "A student tested four thermos flasks. Which conclusion will correctly help the student select a bottle for keeping her coffee hot?",
-      image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-19.07.56.png",
-      options: [
-          { id: 'A', text: "Ceramic and Styrofoam bottles are suitable as they are excellent conductors of heat." },
-          { id: 'B', text: "The Iron bottle cannot be used due to its poor conduction of heat." },
-          { id: 'C', text: "A double-walled Glass bottle would be better if converted to a triple-walled bottle." },
-          { id: 'D', text: "Ceramic and Styrofoam bottles are most suitable due to their excellent heat insulation properties." }
-      ],
-      correctAnswerId: 'D',
-      explanation: "Ceramic and Styrofoam are the most suitable because they are excellent heat insulators (poor conductors of heat), as demonstrated by the smallest drop in coffee temperature over 6 hours. Iron is a good conductor and cooled down quickly."
+        id: 19,
+        text: "Um estudante testou quatro garrafas térmicas. Qual conclusão ajudará corretamente o estudante a selecionar uma garrafa para manter seu café quente?",
+        image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-19.07.56.png",
+        options: [
+            { id: 'A', text: "As garrafas de cerâmica e isopor são adequadas, pois são excelentes condutoras de calor." },
+            { id: 'B', text: "A garrafa de ferro não pode ser usada devido à sua má condução de calor." },
+            { id: 'C', text: "Uma garrafa de vidro de parede dupla seria melhor se convertida em uma garrafa de parede tripla." },
+            { id: 'D', text: "As garrafas de cerâmica e isopor são as mais adequadas devido às suas excelentes propriedades de isolamento térmico." }
+        ],
+        correctAnswerId: 'D',
+        explanation: "Cerâmica e Isopor são os mais adequados porque são excelentes isolantes térmicos (maus condutores de calor), como demonstrado pela menor queda na temperatura do café em 6 horas. O ferro é um bom condutor e esfriou rapidamente."
     },
     {
-      id: 20,
-      text: "Two plates, Material X and Material Y, were subjected to a finger-touch test and an ice-cube test. Which statement could be inferred correctly? (Note: X feels warmer, melts ice slower. Y feels cooler, melts ice quicker).",
-      image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-19.10.13.png",
-      options: [
-          { id: 'A', text: "Material X is iron (high conductivity) and Material Y is ceramic (low resistivity)." },
-          { id: 'B', text: "Material Y is aluminium (high conductivity) and Material X is iron (high resistivity)." },
-          { id: 'C', text: "Material X is plastic (high resistivity) and Material Y is aluminium (high conductivity)." },
-          { id: 'D', text: "Material Y is ceramic (low resistivity) and Material X is plastic (high conductivity)." }
-      ],
-      correctAnswerId: 'C',
-      explanation: "Material Y feels cool and melts ice quickly because it is a good thermal conductor (like aluminum), rapidly drawing heat from the finger and transferring it to the ice. Material X feels warmer and melts ice slowly because it is a poor conductor/good insulator (like plastic)."
+        id: 20,
+        text: "Duas placas, Material X e Material Y, foram submetidas a um teste de toque com o dedo e a um teste com cubo de gelo. Qual afirmação pode ser inferida corretamente? (Nota: X parece mais quente, derrete o gelo mais devagar. Y parece mais frio, derrete o gelo mais rápido).",
+        image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-19.10.13.png",
+        options: [
+            { id: 'A', text: "O Material X é ferro (alta condutividade) e o Material Y é cerâmica (baixa resistividade)." },
+            { id: 'B', text: "O Material Y é alumínio (alta condutividade) e o Material X é ferro (alta resistividade)." },
+            { id: 'C', text: "O Material X é plástico (alta resistividade) e o Material Y é alumínio (alta condutividade)." },
+            { id: 'D', text: "O Material Y é cerâmica (baixa resistividade) e o Material X é plástico (alta condutividade)." }
+        ],
+        correctAnswerId: 'C',
+        explanation: "O Material Y parece frio e derrete o gelo rapidamente porque é um bom condutor térmico (como o alumínio), retirando rapidamente o calor do dedo e transferindo-o para o gelo. O Material X parece mais quente e derrete o gelo lentamente porque é um mau condutor/bom isolante (como o plástico)."
     },
     {
-      id: 21,
-      text: "Scientists want to create an artificial chicken with Tibetan chicken characteristics (adapted to cold, low-pressure). Which method is most appropriate?",
-      image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-19.12.30.png",
-      options: [
-          { id: 'A', text: "Rearing normal mother hens in a cold, low-pressure lab environment." },
-          { id: 'B', text: "Developing normally laid eggs in a partially closed, cold glass container." },
-          { id: 'C', text: "Maturing normal embryos in a partially closed container in a cold, low-pressure lab environment." },
-          { id: 'D', text: "Exposing ready-to-hatch eggs to a cold, low-pressure environment." }
-      ],
-      correctAnswerId: 'C',
-      explanation: "Maturing the embryos in a simulated harsh environment is the most appropriate method. This allows the embryos to develop and adapt during their growth phase, potentially acquiring the desired traits like enhanced oxygen intake."
+        id: 21,
+        text: "Cientistas querem criar uma galinha artificial com características da galinha tibetana (adaptada ao frio, baixa pressão). Qual método é mais apropriado?",
+        image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-19.12.30.png",
+        options: [
+            { id: 'A', text: "Criar galinhas-mãe normais em um ambiente de laboratório frio e de baixa pressão." },
+            { id: 'B', text: "Desenvolver ovos postos normalmente em um recipiente de vidro frio e parcialmente fechado." },
+            { id: 'C', text: "Amadurecer embriões normais em um recipiente parcialmente fechado em um ambiente de laboratório frio e de baixa pressão." },
+            { id: 'D', text: "Expor ovos prestes a eclodir a um ambiente frio e de baixa pressão." }
+        ],
+        correctAnswerId: 'C',
+        explanation: "Amadurecer os embriões em um ambiente adverso simulado é o método mais apropriado. Isso permite que os embriões se desenvolvam e se adaptem durante sua fase de crescimento, potencialmente adquirindo as características desejadas, como uma maior ingestão de oxigênio."
     },
     {
-      id: 22,
-      text: "What was the aim of the experiment testing the water-holding capacity of sheets X, Y, and Z, based on the graph?",
-      image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-19.17.03.png",
-      options: [
-          { id: 'A', text: "To prove that sheet Z is the most suitable waterproof material due to its longer water-holding capacity." },
-          { id: 'B', text: "To show that X and Y are excellent waterproof materials due to their lesser water-holding capacities." },
-          { id: 'C', text: "To prove that X and Z are the least efficient materials for holding water." },
-          { id: 'D', text: "To demonstrate that sheet Y is the most efficient waterproof material." }
-      ],
-      correctAnswerId: 'A',
-      explanation: "The aim is to find the best waterproof material. The longer a material can hold water on its surface without letting it pass through, the more waterproof it is. Sheet Z held water for the maximum duration, proving it has the best waterproof properties."
+        id: 22,
+        text: "Qual era o objetivo do experimento que testou a capacidade de retenção de água das folhas X, Y e Z, com base no gráfico?",
+        image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-19.17.03.png",
+        options: [
+            { id: 'A', text: "Provar que a folha Z é o material impermeável mais adequado devido à sua maior capacidade de retenção de água." },
+            { id: 'B', text: "Mostrar que X e Y são excelentes materiais impermeáveis devido às suas menores capacidades de retenção de água." },
+            { id: 'C', text: "Provar que X e Z são os materiais menos eficientes para reter água." },
+            { id: 'D', text: "Demonstrar que a folha Y é o material impermeável mais eficiente." }
+        ],
+        correctAnswerId: 'A',
+        explanation: "O objetivo é encontrar o melhor material impermeável. Quanto mais tempo um material consegue reter água em sua superfície sem deixá-la passar, mais impermeável ele é. A folha Z reteve água pela duração máxima, provando ter as melhores propriedades impermeáveis."
     },
     {
-      id: 23,
-      text: "Which reason correctly explains the difference between the Indian Pipe plant and a Cactus plant?",
-      image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-19.23.19.png",
-      options: [
-          { id: 'A', text: "The absence of green parts in the Indian Pipe indicates a need for a fungal association for nutrients, while the Cactus's photosynthetic ability shows its independence." },
-          { id: 'B', text: "The Indian Pipe's ghostly appearance allows it to get nutrients in unfavourable conditions." },
-          { id: 'C', text: "The Indian Pipe's white colour is linked to its fungal dependence, while the Cactus's suitability for dry conditions is due to its photosynthetic ability." },
-          { id: 'D', text: "The Indian Pipe's unique colouration indicates a mutual relationship with fungi." }
-      ],
-      correctAnswerId: 'A',
-      explanation: "The Indian Pipe plant is white because it lacks chlorophyll and cannot photosynthesize, making it reliant on a fungal association for nutrients. In contrast, the green Cactus plant can photosynthesize, making it independent and self-sufficient for energy."
+        id: 23,
+        text: "Qual razão explica corretamente a diferença entre a planta Monotropa uniflora e uma planta de Cacto?",
+        image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-19.23.19.png",
+        options: [
+            { id: 'A', text: "A ausência de partes verdes na Monotropa indica a necessidade de uma associação fúngica para obter nutrientes, enquanto a capacidade fotossintética do Cacto mostra sua independência." },
+            { id: 'B', text: "A aparência fantasmagórica da Monotropa permite que ela obtenha nutrientes em condições desfavoráveis." },
+            { id: 'C', text: "A cor branca da Monotropa está ligada à sua dependência de fungos, enquanto a adequação do Cacto a condições secas se deve à sua capacidade fotossintética." },
+            { id: 'D', text: "A coloração única da Monotropa indica uma relação mútua com fungos." }
+        ],
+        correctAnswerId: 'A',
+        explanation: "A planta Monotropa uniflora é branca porque não possui clorofila e não pode fazer fotossíntese, tornando-a dependente de uma associação fúngica para obter nutrientes. Em contraste, o Cacto verde pode fazer fotossíntese, tornando-o independente e autossuficiente em energia."
     },
     {
-      id: 24,
-      text: "An experiment observed the effect of Aspergillus fungus on bacteria. The table relates the size of the 'destruction zone' to bacterial counts. Which conclusion is NOT justified?",
-      image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-19.26.06.png",
-      options: [
-          { id: 'A', text: "The larger the destruction zone, the higher the growth of bacteria." },
-          { id: 'B', text: "The larger the destruction zone, the lower the bacterial cell count." },
-          { id: 'C', text: "The fungus was effective against bacteria around the mycelium." },
-          { id: 'D', text: "Different zone sizes were produced due to effectiveness against a few bacterial cells." }
-      ],
-      correctAnswerId: 'A',
-      explanation: "Statement A is incorrect because it contradicts the observed effect. A larger destruction zone indicates more effective inhibition of bacterial cells by the fungus, leading to a reduction in the bacterial cell count, not higher growth."
+        id: 24,
+        text: "Um experimento observou o efeito do fungo Aspergillus em bactérias. A tabela relaciona o tamanho da 'zona de destruição' com a contagem de bactérias. Qual conclusão NÃO é justificada?",
+        image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-19.26.06.png",
+        options: [
+            { id: 'A', text: "Quanto maior a zona de destruição, maior o crescimento de bactérias." },
+            { id: 'B', text: "Quanto maior a zona de destruição, menor a contagem de células bacterianas." },
+            { id: 'C', text: "O fungo foi eficaz contra as bactérias ao redor do micélio." },
+            { id: 'D', text: "Diferentes tamanhos de zona foram produzidos devido à eficácia contra algumas células bacterianas." }
+        ],
+        correctAnswerId: 'A',
+        explanation: "A afirmação A está incorreta porque contradiz o efeito observado. Uma zona de destruição maior indica uma inibição mais eficaz das células bacterianas pelo fungo, levando a uma redução na contagem de células bacterianas, e não a um maior crescimento."
     },
     {
-      id: 25,
-      text: "A patient had Epiglottitis, a bacterial infection. Four conclusions were drawn. Identify the correct set of statements. (2 & 4 are correct)",
-      image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-19.29.54.png",
-      options: [
-          { id: 'A', text: "Statement 1 only" },
-          { id: 'B', text: "Statements 1 and 2 only" },
-          { id: 'C', text: "Statements 3 and 4 only" },
-          { id: 'D', text: "Statements 2 and 4 only" }
-      ],
-      correctAnswerId: 'D',
-      explanation: "Statement 2 is correct because Haemophilus influenzae infects the epiglottis, which is in the respiratory system. Statement 4 is correct because antibiotics work to kill the bacteria in the respiratory system. Statements 1 and 3 are incorrect as the epiglottis is not part of the digestive system."
+        id: 25,
+        text: "Um paciente teve Epiglotite, uma infecção bacteriana. Quatro conclusões foram tiradas. Identifique o conjunto correto de afirmações. (2 e 4 estão corretas)",
+        image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-19.29.54.png",
+        options: [
+            { id: 'A', text: "Apenas a afirmação 1" },
+            { id: 'B', text: "Apenas as afirmações 1 e 2" },
+            { id: 'C', text: "Apenas as afirmações 3 e 4" },
+            { id: 'D', text: "Apenas as afirmações 2 e 4" }
+        ],
+        correctAnswerId: 'D',
+        explanation: "A afirmação 2 está correta porque o Haemophilus influenzae infecta a epiglote, que faz parte do sistema respiratório. A afirmação 4 está correta porque os antibióticos atuam para matar as bactérias no sistema respiratório. As afirmações 1 e 3 estão incorretas, pois a epiglote não faz parte do sistema digestivo."
     }
   ],
   "2023": [
     {
       id: 1,
-      text: "Which of these organisms has been classified wrongly?",
+      text: "Qual destes organismos foi classificado incorretamente?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-09.47.55.png",
       options: [
-        { id: 'A', text: "Subset 1: Earthworm, Starfish / Subset 2: Moss, Mushroom" },
-        { id: 'B', text: "Subset 1: Spider, Crab / Subset 2: Fern, Algae" },
-        { id: 'C', text: "Subset 1: Salamander, Snail / Subset 2: Banana, Conifer" },
-        { id: 'D', text: "Subset 1: Jellyfish, Coral / Subset 2: Seaweed, Liverwort" }
+        { id: 'A', text: "Subconjunto 1: Minhoca, Estrela-do-mar / Subconjunto 2: Musgo, Cogumelo" },
+        { id: 'B', text: "Subconjunto 1: Aranha, Caranguejo / Subconjunto 2: Samambaia, Alga" },
+        { id: 'C', text: "Subconjunto 1: Salamandra, Caracol / Subconjunto 2: Banana, Conífera" },
+        { id: 'D', text: "Subconjunto 1: Água-viva, Coral / Subconjunto 2: Alga marinha, Hepática" }
       ],
       correctAnswerId: 'C',
-      explanation: "The organisms in subset 1 are invertebrates and non-flowering plants in subset 2. Salamanders are vertebrates and a banana is easily recognized a fruit so it should be classified as a flowering plant."
+      explanation: "Os organismos no subconjunto 1 são invertebrados e as plantas no subconjunto 2 não possuem flores. As salamandras são vertebrados e a banana é facilmente reconhecida como um fruto, portanto deve ser classificada como uma planta com flor."
     },
     {
       id: 2,
-      text: "Which of the following is an example of a system?",
+      text: "Qual dos seguintes é um exemplo de sistema?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-09.49.40.png",
       options: [
-        { id: 'A', text: "Key" },
-        { id: 'B', text: "Cup" },
-        { id: 'C', text: "Mechanical pencil" },
-        { id: 'D', text: "Sticky note" }
+        { id: 'A', text: "Chave" },
+        { id: 'B', text: "Copo" },
+        { id: 'C', text: "Lápis mecânico" },
+        { id: 'D', text: "Nota adesiva" }
       ],
       correctAnswerId: 'C',
-      explanation: "A mechanical pencil is a system because it consists of multiple interconnected components (lead, barrel, mechanism) working together to achieve a common goal (writing). The other items are single objects, not systems."
+      explanation: "Um lápis mecânico é um sistema porque consiste em múltiplos componentes interconectados (grafite, corpo, mecanismo) trabalhando juntos para alcançar um objetivo comum (escrever). Os outros itens são objetos únicos, não sistemas."
     },
     {
       id: 3,
-      text: "If these paperclips are magnetised, which of the following diagrams correctly shows the poles of the paperclips in relation to the bar magnet?",
+      text: "Se estes clipes de papel forem magnetizados, qual dos seguintes diagramas mostra corretamente os polos dos clipes em relação ao ímã em barra?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-09.50.50.png",
       options: [
-        { id: 'A', text: "Diagram A" },
-        { id: 'B', text: "Diagram B" },
-        { id: 'C', text: "Diagram C" },
-        { id: 'D', text: "Diagram D" }
+        { id: 'A', text: "Diagrama A" },
+        { id: 'B', text: "Diagrama B" },
+        { id: 'C', text: "Diagrama C" },
+        { id: 'D', text: "Diagrama D" }
       ],
       correctAnswerId: 'B',
-      explanation: "When a paperclip is magnetized by induction, the end closer to a magnet's pole acquires the opposite polarity. The South pole of the magnet will induce a North pole on the part of the paperclip touching it, and vice versa."
+      explanation: "Quando um clipe de papel é magnetizado por indução, a extremidade mais próxima de um polo do ímã adquire a polaridade oposta. O polo Sul do ímã induzirá um polo Norte na parte do clipe que o toca, e vice-versa."
     },
     {
       id: 4,
-      text: "Which of the following statements about bacteria is true?",
+      text: "Qual das seguintes afirmações sobre bactérias é verdadeira?",
       options: [
-        { id: 'A', text: "Most bacteria are smaller than yeast." },
-        { id: 'B', text: "Bacteria are only found in soil and are transmitted to humans through contact with contaminated surfaces." },
-        { id: 'C', text: "Like all living organisms, all bacteria require food, water, and oxygen to survive." },
-        { id: 'D', text: "Fungi and bacteria are different in terms of how they obtain food. Most fungi are decomposers, but most bacteria produce their own food." }
+        { id: 'A', text: "A maioria das bactérias é menor que a levedura." },
+        { id: 'B', text: "As bactérias são encontradas apenas no solo e são transmitidas aos seres humanos através do contato com superfícies contaminadas." },
+        { id: 'C', text: "Como todos os organismos vivos, todas as bactérias precisam de alimento, água e oxigênio para sobreviver." },
+        { id: 'D', text: "Fungos e bactérias são diferentes na forma como obtêm alimento. A maioria dos fungos são decompositores, mas a maioria das bactérias produz seu próprio alimento." }
       ],
       correctAnswerId: 'A',
-      explanation: "Statement A is true; bacteria are unicellular microorganisms that are generally smaller than yeast cells. The other statements are incorrect: bacteria are found everywhere, not all require oxygen (some are anaerobic), and most bacteria are heterotrophs (they don't produce their own food)."
+      explanation: "A afirmação A é verdadeira; as bactérias são microrganismos unicelulares geralmente menores que as células de levedura. As outras afirmações estão incorretas: as bactérias são encontradas em todos os lugares, nem todas precisam de oxigênio (algumas são anaeróbicas) e a maioria das bactérias são heterotróficas (não produzem seu próprio alimento)."
     },
     {
       id: 5,
-      text: "Which of the following are dicots?",
+      text: "Quais dos seguintes são dicotiledôneas?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-09.53.35.png",
       options: [
-        { id: 'A', text: "2 only" },
-        { id: 'B', text: "4 only" },
-        { id: 'C', text: "2 and 4 only" },
-        { id: 'D', text: "1, 2, 3 and 4" }
+        { id: 'A', text: "Apenas 2" },
+        { id: 'B', text: "Apenas 4" },
+        { id: 'C', text: "Apenas 2 e 4" },
+        { id: 'D', text: "1, 2, 3 e 4" }
       ],
       correctAnswerId: 'B',
-      explanation: "Kidney bean (4) is a dicot because it has two cotyledons (seed leaves). Rice (1), wheat (2), and corn (3) are all monocots, having only one cotyledon."
+      explanation: "O feijão (4) é uma dicotiledônea porque possui dois cotilédones (folhas seminais). Arroz (1), trigo (2) e milho (3) são todos monocotiledôneas, possuindo apenas um cotilédone."
     },
     {
       id: 6,
-      text: "The graph shows the avg. amount of undigested food leaving different parts of the digestive system. Which row correctly identifies the parts?",
+      text: "O gráfico mostra a quantidade média de comida não digerida saindo de diferentes partes do sistema digestivo. Qual linha identifica corretamente as partes?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-09.56.18.png",
       options: [
-        { id: 'A', text: "Row A" },
-        { id: 'B', text: "Row B" },
-        { id: 'C', text: "Row C" },
-        { id: 'D', text: "Row D" }
+        { id: 'A', text: "Linha A" },
+        { id: 'B', text: "Linha B" },
+        { id: 'C', text: "Linha C" },
+        { id: 'D', text: "Linha D" }
       ],
       correctAnswerId: 'A',
-      explanation: "Digestion starts in the mouth (N/O), continues significantly in the stomach (L), and most digestion occurs in the small intestine (M/K). The amount of undigested food is highest at the start (mouth) and lowest after the small intestine. No digestion occurs in the gullet or large intestine. Row A correctly matches this pattern."
+      explanation: "A digestão começa na boca (N/O), continua significativamente no estômago (L), e a maior parte da digestão ocorre no intestino delgado (M/K). A quantidade de comida não digerida é maior no início (boca) e menor após o intestino delgado. Nenhuma digestão ocorre no esôfago ou no intestino grosso. A Linha A corresponde corretamente a esse padrão."
     },
     {
       id: 7,
-      text: "Based on the flower experiment, which human system can be likened to the plant system responsible for the colour transformation?",
+      text: "Com base no experimento da flor, qual sistema humano pode ser comparado ao sistema da planta responsável pela transformação da cor?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-09.59.27.png",
       options: [
-        { id: 'A', text: "Nervous System" },
-        { id: 'B', text: "Circulatory System" },
-        { id: 'C', text: "Skeletal System" },
-        { id: 'D', text: "Respiratory System" }
+        { id: 'A', text: "Sistema Nervoso" },
+        { id: 'B', text: "Sistema Circulatório" },
+        { id: 'C', text: "Sistema Esquelético" },
+        { id: 'D', text: "Sistema Respiratório" }
       ],
       correctAnswerId: 'B',
-      explanation: "The flower petals changed colour because the plant's transport system (xylem) transported the coloured water up to them. This is analogous to the human circulatory system, which transports blood, nutrients, and other substances throughout the body."
+      explanation: "As pétalas da flor mudaram de cor porque o sistema de transporte da planta (xilema) transportou a água colorida até elas. Isso é análogo ao sistema circulatório humano, que transporta sangue, nutrientes e outras substâncias por todo o corpo."
     },
     {
       id: 8,
-      text: "Which of the following apparatus would be more appropriate to accurately measure the volume of hydrogen gas produced?",
+      text: "Qual dos seguintes aparelhos seria mais apropriado para medir com precisão o volume de gás hidrogênio produzido?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.04.03.png",
       options: [
-        { id: 'A', text: "Beaker" },
-        { id: 'B', text: "Conical Flask" },
-        { id: 'C', text: "Standard Flask" },
-        { id: 'D', text: "10 mL Syringe" }
+        { id: 'A', text: "Béquer" },
+        { id: 'B', text: "Frasco Cônico" },
+        { id: 'C', text: "Frasco Volumétrico" },
+        { id: 'D', text: "Seringa de 10 mL" }
       ],
       correctAnswerId: 'D',
-      explanation: "A syringe is the most appropriate apparatus for accurately measuring the volume of gas collected from a chemical reaction. Beakers and flasks are designed for holding liquids, not for precise volume measurement of gases."
+      explanation: "Uma seringa é o aparelho mais apropriado para medir com precisão o volume de gás coletado de uma reação química. Béqueres e frascos são projetados para conter líquidos, não para medição precisa de volume de gases."
     },
     {
       id: 9,
-      text: "A student measures the length of a building's shadow from 9 AM to 5 PM. Which graph correctly represents the readings?",
+      text: "Um estudante mede o comprimento da sombra de um prédio das 9h às 17h. Qual gráfico representa corretamente as leituras?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.05.33.png",
       options: [
-        { id: 'A', text: "Graph A" },
-        { id: 'B', text: "Graph B" },
-        { id: 'C', text: "Graph C" },
-        { id: 'D', text: "Graph D" }
+        { id: 'A', text: "Gráfico A" },
+        { id: 'B', text: "Gráfico B" },
+        { id: 'C', text: "Gráfico C" },
+        { id: 'D', text: "Gráfico D" }
       ],
       correctAnswerId: 'C',
-      explanation: "The shadow is longest in the morning (when the sun is low), shortest at noon (when the sun is highest), and gets longer again in the afternoon. This creates a V-shaped curve, as shown in Graph C."
+      explanation: "A sombra é mais longa pela manhã (quando o sol está baixo), mais curta ao meio-dia (quando o sol está mais alto) e fica mais longa novamente à tarde. Isso cria uma curva em forma de V, como mostrado no Gráfico C."
     },
     {
       id: 10,
-      text: "The iron rings used to reinforce wooden barrels are too tight. Which method would you suggest to make them fit?",
+      text: "Os anéis de ferro usados para reforçar barris de madeira estão muito apertados. Qual método você sugeriria para fazê-los caber?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.07.44.png",
       options: [
-        { id: 'A', text: "Soaking the barrel in water for several hours" },
-        { id: 'B', text: "Heating the iron ring in a blacksmith's forge." },
-        { id: 'C', text: "Cooling the iron ring in a bucket of ice." },
-        { id: 'D', text: "Heating the barrel for several hours" }
+        { id: 'A', text: "Mergulhar o barril em água por várias horas" },
+        { id: 'B', text: "Aquecer o anel de ferro na forja de um ferreiro." },
+        { id: 'C', text: "Esfriar o anel de ferro em um balde de gelo." },
+        { id: 'D', text: "Aquecer o barril por várias horas" }
       ],
       correctAnswerId: 'B',
-      explanation: "Heating a metal object causes it to expand (thermal expansion). By heating the iron ring, it will expand, making it large enough to fit over the barrel. As it cools, it will contract and tighten, securing the barrel staves."
+      explanation: "Aquecer um objeto de metal faz com que ele se expanda (expansão térmica). Ao aquecer o anel de ferro, ele se expandirá, tornando-se grande o suficiente para caber sobre o barril. À medida que esfria, ele se contrairá e apertará, prendendo as aduelas do barril."
     },
     {
       id: 11,
-      text: "Based on the classification of vertebrates, which of the following groups are not classified together correctly?",
+      text: "Com base na classificação dos vertebrados, qual dos seguintes grupos não está classificado corretamente em conjunto?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.09.40.png",
       options: [
-        { id: 'A', text: "Group A: Platypus, Dolphin" },
-        { id: 'B', text: "Group B: Bat, Eagle" },
-        { id: 'C', text: "Group C: Tortoise, Snake" },
-        { id: 'D', text: "Group D: Shark, Salmon" }
+        { id: 'A', text: "Grupo A: Ornitorrinco, Golfinho" },
+        { id: 'B', text: "Grupo B: Morcego, Águia" },
+        { id: 'C', text: "Grupo C: Tartaruga, Cobra" },
+        { id: 'D', text: "Grupo D: Tubarão, Salmão" }
       ],
       correctAnswerId: 'B',
-      explanation: "Group B is incorrect because it mixes two different vertebrate classes. A bat is a mammal, while an eagle is a bird. The other groups correctly classify animals within the same class (A: Mammals, C: Reptiles, D: Fish)."
+      explanation: "O Grupo B está incorreto porque mistura duas classes diferentes de vertebrados. Um morcego é um mamífero, enquanto uma águia é uma ave. Os outros grupos classificam corretamente os animais dentro da mesma classe (A: Mamíferos, C: Répteis, D: Peixes)."
     },
     {
       id: 12,
-      text: "Students tested four rulers by adding water to a bag tied to each ruler until it snapped. What property of the materials were they testing?",
+      text: "Estudantes testaram quatro réguas adicionando água a um saco amarrado em cada régua até que ela quebrasse. Qual propriedade dos materiais eles estavam testando?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.12.35.png",
       options: [
-        { id: 'A', text: "Transparency of each ruler used in the experiment" },
-        { id: 'B', text: "Flexibility of each ruler before it snapped" },
-        { id: 'C', text: "Strength of each ruler" },
-        { id: 'D', text: "Waterproofing ability of each ruler" }
+        { id: 'A', text: "Transparência de cada régua usada no experimento" },
+        { id: 'B', text: "Flexibilidade de cada régua antes de quebrar" },
+        { id: 'C', text: "Resistência de cada régua" },
+        { id: 'D', text: "Capacidade de impermeabilização de cada régua" }
       ],
       correctAnswerId: 'C',
-      explanation: "The experiment measures the amount of load (weight of the water) each ruler can withstand before breaking. This is a direct test of the material's strength."
+      explanation: "O experimento mede a quantidade de carga (peso da água) que cada régua pode suportar antes de quebrar. Este é um teste direto da resistência do material."
     },
     {
       id: 13,
-      text: "Based on Minji’s observations, which of the following correctly shows the positions of immiscible liquids K, L and M when they are arranged in the same cup?",
+      text: "Com base nas observações de Minji, qual das seguintes opções mostra corretamente as posições dos líquidos imiscíveis K, L e M quando arranjados no mesmo copo?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.15.01.png",
       options: [
-        { id: 'A', text: "Diagram A" },
-        { id: 'B', text: "Diagram B" },
-        { id: 'C', text: "Diagram C" },
-        { id: 'D', text: "Diagram D" }
+        { id: 'A', text: "Diagrama A" },
+        { id: 'B', text: "Diagrama B" },
+        { id: 'C', text: "Diagrama C" },
+        { id: 'D', text: "Diagrama D" }
       ],
       correctAnswerId: 'B',
-      explanation: "The ice cube sank in liquid L but floated in K and M, so L is the least dense liquid. Object X sank in K but floated in M, so M is denser than K. Therefore, the order of density from least to most is L < K < M. When layered, the least dense (L) will be at the top, and the most dense (M) at the bottom."
+      explanation: "O cubo de gelo afundou no líquido L, mas flutuou em K e M, então L é o líquido menos denso. O objeto X afundou em K, mas flutuou em M, então M é mais denso que K. Portanto, a ordem de densidade do menor para o maior é L < K < M. Quando em camadas, o menos denso (L) estará no topo e o mais denso (M) na parte inferior."
     },
     {
       id: 14,
-      text: "The flowchart illustrates how animals are categorized. Which of the options is not a correct fit for the flowchart?",
+      text: "O fluxograma ilustra como os animais são categorizados. Qual das opções não se encaixa corretamente no fluxograma?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.16.24-1024x919.png",
       options: [
-        { id: 'A', text: "X = Bat" },
+        { id: 'A', text: "X = Morcego" },
         { id: 'B', text: "Y = Guppy" },
-        { id: 'C', text: "Z = Turtle" },
-        { id: 'D', text: "W = Penguin" }
+        { id: 'C', text: "Z = Tartaruga" },
+        { id: 'D', text: "W = Pinguim" }
       ],
       correctAnswerId: 'C',
-      explanation: "Following the flowchart: Z lays eggs and has feathers, so it's a bird (like a Penguin). W lays eggs, has no feathers, and no gills, so it's a reptile (like a Turtle). Option C incorrectly identifies Z as a Turtle."
+      explanation: "Seguindo o fluxograma: Z põe ovos e tem penas, então é uma ave (como um Pinguim). W põe ovos, não tem penas e não tem guelras, então é um réptil (como uma Tartaruga). A opção C identifica incorretamente Z como uma Tartaruga."
     },
     {
       id: 15,
-      text: "A teacher burns a sodium compound in a dark room illuminated by a yellow sodium lamp. What colour would the flame most likely appear?",
+      text: "Um professor queima um composto de sódio em uma sala escura iluminada por uma lâmpada de sódio amarela. Qual cor a chama provavelmente pareceria?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.19.21.png",
       options: [
-        { id: 'A', text: "Yellow" },
-        { id: 'B', text: "Yellowish orange" },
-        { id: 'C', text: "Bright or white" },
-        { id: 'D', text: "Dark or black" }
+        { id: 'A', text: "Amarelo" },
+        { id: 'B', text: "Laranja amarelado" },
+        { id: 'C', text: "Brilhante ou branco" },
+        { id: 'D', text: "Escuro ou preto" }
       ],
       correctAnswerId: 'D',
-      explanation: "This is a phenomenon known as a 'black flame'. The sodium in the flame absorbs the specific yellow wavelength of light emitted by the sodium lamp. Since that light doesn't reach the observer's eye from the flame, the flame appears dark or black against the bright background."
+      explanation: "Isso é um fenômeno conhecido como 'chama negra'. O sódio na chama absorve o comprimento de onda específico da luz amarela emitida pela lâmpada de sódio. Como essa luz não chega aos olhos do observador a partir da chama, a chama parece escura ou preta contra o fundo brilhante."
     },
     {
       id: 16,
-      text: "What characteristic(s) of living organisms is/are demonstrated by the Venus flytrap trapping an insect?",
+      text: "Qual(is) característica(s) dos organismos vivos é(são) demonstrada(s) pela armadilha de Vênus capturando um inseto?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.22.11.png",
       options: [
-        { id: 'A', text: "(1) and (3) only" },
-        { id: 'B', text: "(2) and (3) only" },
-        { id: 'C', text: "(2) and (4) only" },
-        { id: 'D', text: "(1), (2), (3) and (4)" }
+        { id: 'A', text: "Apenas (1) e (3)" },
+        { id: 'B', text: "Apenas (2) e (3)" },
+        { id: 'C', text: "Apenas (2) e (4)" },
+        { id: 'D', text: "(1), (2), (3) e (4)" }
       ],
       correctAnswerId: 'C',
-      explanation: "The leaves snapping shut demonstrates that living organisms can move (2). This action is triggered by the insect touching hairs, which shows that living organisms can respond to changes (stimuli) in their environment (4)."
+      explanation: "O fechamento rápido das folhas demonstra que os organismos vivos podem se mover (2). Esta ação é desencadeada pelo toque do inseto nos pelos, o que mostra que os organismos vivos podem responder a mudanças (estímulos) em seu ambiente (4)."
     },
     {
       id: 17,
-      text: "Which of the following statements about the life cycle of a frog is/are incorrect? (1) Reproduce before metamorphosis. (2) Undergo metamorphosis. (3) Tadpoles breathe through gills. (4) Eggs fertilized externally.",
+      text: "Qual das seguintes afirmações sobre o ciclo de vida de um sapo está(ão) incorreta(s)? (1) Reproduz-se antes da metamorfose. (2) Sofre metamorfose. (3) Girinos respiram por brânquias. (4) Ovos fertilizados externamente.",
       options: [
-        { id: 'A', text: "(1) only" },
-        { id: 'B', text: "(1) and (2) only" },
-        { id: 'C', text: "(2) and (3) only" },
-        { id: 'D', text: "(1), (3) and (4) only" }
+        { id: 'A', text: "Apenas (1)" },
+        { id: 'B', text: "Apenas (1) e (2)" },
+        { id: 'C', text: "Apenas (2) e (3)" },
+        { id: 'D', text: "Apenas (1), (3) e (4)" }
       ],
       correctAnswerId: 'A',
-      explanation: "Statement (1) is incorrect. Frogs must first undergo metamorphosis from a tadpole to an adult before they are sexually mature and can reproduce. Statements (2), (3), and (4) are all correct facts about the frog life cycle."
+      explanation: "A afirmação (1) está incorreta. Os sapos devem primeiro passar pela metamorfose de girino para adulto antes de atingirem a maturidade sexual e poderem se reproduzir. As afirmações (2), (3) e (4) são todos fatos corretos sobre o ciclo de vida do sapo."
     },
     {
       id: 18,
-      text: "When an iodine test is performed, which part of the potato plant will turn blue-black the most? (1) Tubers (2) Underground root (3) Flower (4) Stem",
+      text: "Quando um teste de iodo é realizado, qual parte da planta da batata ficará mais azul-escura? (1) Tubérculos (2) Raiz subterrânea (3) Flor (4) Caule",
       options: [
-        { id: 'A', text: "(1) only" },
-        { id: 'B', text: "(1) and (2) only" },
-        { id: 'C', text: "(2) and (3) only" },
-        { id: 'D', text: "(1), (2), (3) and (4)" }
+        { id: 'A', text: "Apenas (1)" },
+        { id: 'B', text: "Apenas (1) e (2)" },
+        { id: 'C', text: "Apenas (2) e (3)" },
+        { id: 'D', text: "(1), (2), (3) e (4)" }
       ],
       correctAnswerId: 'A',
-      explanation: "The iodine test detects starch. Potato plants store most of their starch in their tubers, which are enlarged underground stems. Therefore, the tubers will show the strongest blue-black reaction."
+      explanation: "O teste de iodo detecta amido. As plantas de batata armazenam a maior parte de seu amido em seus tubérculos, que são caules subterrâneos aumentados. Portanto, os tubérculos mostrarão a reação azul-escura mais forte."
     },
     {
       id: 19,
-      text: "Which of the statements about cooling hot chocolate in a glass tumbler placed in a metal pot of cold water is/are incorrect?",
+      text: "Qual(is) das afirmações sobre o resfriamento de chocolate quente em um copo de vidro colocado em uma panela de metal com água fria está(ão) incorreta(s)?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.26.58.png",
       options: [
-        { id: 'A', text: "(1), (2) and (3) only" },
-        { id: 'B', text: "(1), (2) and (4) only" },
-        { id: 'C', text: "(1), (2), (3) and (4)" },
-        { id: 'D', text: "(2) and (3) only" }
+        { id: 'A', text: "Apenas (1), (2) e (3)" },
+        { id: 'B', text: "Apenas (1), (2) e (4)" },
+        { id: 'C', text: "(1), (2), (3) e (4)" },
+        { id: 'D', text: "Apenas (2) e (3)" }
       ],
       correctAnswerId: 'C',
-      explanation: "All four statements are incorrect. (1) Glass is an insulator but still transfers heat slowly. (2) Steel is a better conductor than glass, so a steel pot cools faster. (3) Lid material has a minimal effect compared to conduction through the pot. (4) Heat transfers from the hot chocolate to the cold water, so the water's temperature will increase."
+      explanation: "Todas as quatro afirmações estão incorretas. (1) O vidro é um isolante, mas ainda transfere calor lentamente. (2) O aço é um condutor melhor que o vidro, então uma panela de aço esfria mais rápido. (3) O material da tampa tem um efeito mínimo em comparação com a condução através da panela. (4) O calor é transferido do chocolate quente para a água fria, então a temperatura da água aumentará."
     },
     {
       id: 20,
-      text: "A magnet (150g) is on a spring balance above another magnet (300g) on a scale. The south pole of the top magnet faces the north pole of the bottom one. What are the possible readings?",
+      text: "Um ímã (150g) está em uma balança de mola acima de outro ímã (300g) em uma balança. O polo sul do ímã de cima está voltado para o polo norte do de baixo. Quais são as possíveis leituras?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.33.30.png",
       options: [
-        { id: 'A', text: "Spring balance: 150 g, Scale: 300 g" },
-        { id: 'B', text: "Spring balance: 200 g, Scale: 250 g" },
-        { id: 'C', text: "Spring balance: 100 g, Scale: 350 g" },
-        { id: 'D', text: "Spring balance: 150 g, Scale: 450 g" }
+        { id: 'A', text: "Balança de mola: 150 g, Balança: 300 g" },
+        { id: 'B', text: "Balança de mola: 200 g, Balança: 250 g" },
+        { id: 'C', text: "Balança de mola: 100 g, Balança: 350 g" },
+        { id: 'D', text: "Balança de mola: 150 g, Balança: 450 g" }
       ],
       correctAnswerId: 'B',
-      explanation: "Unlike poles attract. The attraction pulls the top magnet down, increasing the tension and the spring balance reading to >150g. It also pulls the bottom magnet up, reducing the force on the scale, making the reading <300g. Option B is the only one that fits this logic."
+      explanation: "Polos opostos se atraem. A atração puxa o ímã de cima para baixo, aumentando a tensão e a leitura da balança de mola para >150g. Também puxa o ímã de baixo para cima, reduzindo a força na balança, fazendo a leitura ser <300g. A opção B é a única que se encaixa nessa lógica."
     },
     {
       id: 21,
-      text: "The Indian star tortoise has a shell shaped like a Gömböc, which allows it to self-right when overturned. What kind of adaptation is this?",
+      text: "A tartaruga-estrelada-indiana tem uma carapaça em forma de Gömböc, o que lhe permite se desvirar quando virada. Que tipo de adaptação é essa?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.55.32.png",
       options: [
-        { id: 'A', text: "Behavioural" },
-        { id: 'B', text: "Physiological" },
-        { id: 'C', text: "Both structural and behavioural" },
-        { id: 'D', text: "Structural" }
+        { id: 'A', text: "Comportamental" },
+        { id: 'B', text: "Fisiológica" },
+        { id: 'C', text: "Estrutural e comportamental" },
+        { id: 'D', text: "Estrutural" }
       ],
       correctAnswerId: 'D',
-      explanation: "The adaptation is based on the physical shape and structure of the tortoise's shell. This is a structural adaptation, a physical feature of the organism that helps it survive."
+      explanation: "A adaptação é baseada na forma física e na estrutura da carapaça da tartaruga. Esta é uma adaptação estrutural, uma característica física do organismo que o ajuda a sobreviver."
     },
     {
       id: 22,
-      text: "Insulin is a protein that gets broken down by the digestive system if ingested. If taken orally, where would the breakdown of insulin begin?",
+      text: "A insulina é uma proteína que é decomposta pelo sistema digestivo se ingerida. Se tomada por via oral, onde começaria a decomposição da insulina?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.57.18.png",
       options: [
-        { id: 'A', text: "Mouth" },
-        { id: 'B', text: "Stomach" },
-        { id: 'C', text: "Small Intestine" },
-        { id: 'D', text: "Large Intestine" }
+        { id: 'A', text: "Boca" },
+        { id: 'B', text: "Estômago" },
+        { id: 'C', text: "Intestino Delgado" },
+        { id: 'D', text: "Intestino Grosso" }
       ],
       correctAnswerId: 'B',
-      explanation: "The breakdown of proteins begins in the stomach, which contains strong acid (hydrochloric acid) and protein-digesting enzymes like pepsin. This harsh environment would start to break down the insulin protein."
+      explanation: "A decomposição de proteínas começa no estômago, que contém ácido forte (ácido clorídrico) e enzimas digestoras de proteínas como a pepsina. Este ambiente hostil começaria a decompor a proteína da insulina."
     },
     {
       id: 23,
-      text: "Four students hypothesize about the correct tyre pressure for an F1 car race in Dubai in July. Which student's statement is true?",
+      text: "Quatro estudantes têm hipóteses sobre a pressão correta dos pneus para uma corrida de F1 em Dubai em julho. Qual afirmação do estudante é verdadeira?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.59.14.png",
       options: [
-        { id: 'A', text: "Student K" },
-        { id: 'B', text: "Student L" },
-        { id: 'C', text: "Student M" },
-        { id: 'D', text: "Student N" }
+        { id: 'A', text: "Estudante K" },
+        { id: 'B', text: "Estudante L" },
+        { id: 'C', text: "Estudante M" },
+        { id: 'D', text: "Estudante N" }
       ],
       correctAnswerId: 'C',
-      explanation: "Student M is correct. In hot conditions and during a high-speed race, friction causes tyre temperature to increase significantly. This heats the air inside, increasing its pressure (kinetic energy). To avoid overinflation and a potential burst, the initial pressure should be set slightly below the standard."
+      explanation: "O Estudante M está correto. Em condições quentes e durante uma corrida de alta velocidade, o atrito causa um aumento significativo na temperatura dos pneus. Isso aquece o ar interno, aumentando sua pressão (energia cinética). Para evitar a superinflação e um possível estouro, a pressão inicial deve ser ajustada para um pouco abaixo do padrão."
     },
     {
       id: 24,
-      text: "Which property/properties of light allow the optical fibre cable of Tan’s device to work? (1) Light travels in straight lines. (2) Light can be reflected. (3) Light can travel in curved lines. (4) Light is a form of energy.",
+      text: "Qual(is) propriedade(s) da luz permite(m) que o cabo de fibra óptica do dispositivo de Tan funcione? (1) A luz viaja em linhas retas. (2) A luz pode ser refletida. (3) A luz pode viajar em linhas curvas. (4) A luz é uma forma de energia.",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-11.01.18-745x1024.png",
       options: [
-        { id: 'A', text: "Option 1 only" },
-        { id: 'B', text: "Option 2 only" },
-        { id: 'C', text: "Option 1, 2 and 4 only" },
-        { id: 'D', text: "Option 1, 2, 3 and 4" }
+        { id: 'A', text: "Apenas a opção 1" },
+        { id: 'B', text: "Apenas a opção 2" },
+        { id: 'C', text: "Apenas as opções 1, 2 e 4" },
+        { id: 'D', text: "Opções 1, 2, 3 e 4" }
       ],
       correctAnswerId: 'C',
-      explanation: "Optical fibres work because light travels in straight lines (1) and undergoes total internal reflection (2) to navigate the cable. Light is also a form of energy (4) which is detected at the other end. Light does not travel in curved lines (3)."
+      explanation: "As fibras ópticas funcionam porque a luz viaja em linhas retas (1) e sofre reflexão interna total (2) para percorrer o cabo. A luz também é uma forma de energia (4) que é detectada na outra extremidade. A luz não viaja em linhas curvas (3)."
     },
     {
       id: 25,
-      text: "Based on the material properties table, which materials would be suitable for making the optic fibre cable and the cuvette respectively?",
+      text: "Com base na tabela de propriedades dos materiais, quais materiais seriam adequados para fazer o cabo de fibra óptica e a cubeta, respectivamente?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-11.02.55.png",
       options: [
         { id: 'A', text: "Q, P" },
@@ -645,26 +645,26 @@ export const allQuizzes: Record<string, Question[]> = {
         { id: 'D', text: "S, P" }
       ],
       correctAnswerId: 'B',
-      explanation: "The optic fibre cable needs to be flexible and opaque to keep light inside, so material Q is suitable. The cuvette needs to be transparent (low opacity) to let light pass through for measurement, so material R is suitable."
+      explanation: "O cabo de fibra óptica precisa ser flexível e opaco para manter a luz dentro, então o material Q é adequado. A cubeta precisa ser transparente (baixa opacidade) para permitir a passagem da luz para medição, então o material R é adequado."
     }
   ],
   "2022": [
     {
       id: 1,
-      text: "Four students made the following statements about sharks being wrongly classified as fish. Which of the students is correct?",
+      text: "Quatro estudantes fizeram as seguintes afirmações sobre os tubarões serem classificados incorretamente como peixes. Qual dos estudantes está correto?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-16-at-11.44.45.png",
       options: [
-        { id: 'A', text: "Liam and Stefan" },
-        { id: 'B', text: "Elizabeth only" },
-        { id: 'C', text: "Josie, Stefan, and Elizabeth" },
-        { id: 'D', text: "Josie and Stefan" }
+        { id: 'A', text: "Liam e Stefan" },
+        { id: 'B', text: "Apenas Elizabeth" },
+        { id: 'C', text: "Josie, Stefan e Elizabeth" },
+        { id: 'D', text: "Josie e Stefan" }
       ],
       correctAnswerId: 'B',
-      explanation: "The determining traits of a fish would be the fact that they live in water, breathe through gills, and have fins and scales. Even though they are carnivorous, and most do give birth to young alive, these are not determining traits of a fish. Only Elizabeth identifies the key characteristic of why a shark may be wrongly classified as a fish."
+      explanation: "As características determinantes de um peixe seriam o fato de viverem na água, respirarem por brânquias e terem nadadeiras e escamas. Embora sejam carnívoros e a maioria dê à luz a filhotes vivos, essas não são características determinantes de um peixe. Apenas Elizabeth identifica a característica chave do motivo pelo qual um tubarão pode ser classificado erroneamente como peixe."
     },
     {
       id: 2,
-      text: "John placed the following items into a container of water. Which of the following observations is correct?",
+      text: "João colocou os seguintes itens em um recipiente com água. Qual das seguintes observações está correta?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-16-at-11.52.58.png",
       options: [
         { id: 'A', text: "A" },
@@ -673,298 +673,298 @@ export const allQuizzes: Record<string, Question[]> = {
         { id: 'D', text: "D" }
       ],
       correctAnswerId: 'D',
-      explanation: "A metal nail is much denser than water, whereas a sheet of paper is less dense than water, so the metal nail will sink and the paper will float."
+      explanation: "Um prego de metal é muito mais denso que a água, enquanto uma folha de papel é menos densa que a água, então o prego de metal afundará e o papel flutuará."
     },
     {
       id: 3,
-      text: "The picture above shows a cicada shedding its exoskeleton. What is happening to the cicada?",
+      text: "A imagem acima mostra uma cigarra trocando seu exoesqueleto. O que está acontecendo com a cigarra?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-16-at-11.55.05-e1744825725915.png",
       options: [
-        { id: 'A', text: "The cicada is going to develop from the larval stage to the pupal stage." },
-        { id: 'B', text: "The cicada does this to escape from predators." },
-        { id: 'C', text: "The exoskeleton is damaged." },
-        { id: 'D', text: "The cicada has grown too large for its old exoskeleton and requires a larger one." }
+        { id: 'A', text: "A cigarra vai se desenvolver do estágio larval para o estágio de pupa." },
+        { id: 'B', text: "A cigarra faz isso para escapar de predadores." },
+        { id: 'C', text: "O exoesqueleto está danificado." },
+        { id: 'D', text: "A cigarra cresceu demais para seu antigo exoesqueleto e precisa de um maior." }
       ],
       correctAnswerId: 'D',
-      explanation: "The cicada has grown too large for its old exoskeleton and requires a larger one."
+      explanation: "A cigarra cresceu demais para seu antigo exoesqueleto e precisa de um maior."
     },
     {
       id: 4,
-      text: "Which of the following shows the correct sequence of the processes involving heat gain or heat loss, of the water cycle?",
+      text: "Qual das seguintes opções mostra a sequência correta dos processos que envolvem ganho ou perda de calor no ciclo da água?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-16-at-20.09.10.png",
       options: [
-        { id: 'A', text: "Precipitation -> Condensation -> Evaporation -> Precipitation" },
-        { id: 'B', text: "Condensation -> Precipitation -> Evaporation -> Runoff" },
-        { id: 'C', text: "Evaporation -> Condensation -> Precipitation -> Runoff" },
-        { id: 'D', text: "Precipitation -> Evaporation -> Condensation -> Precipitation" }
+        { id: 'A', text: "Precipitação -> Condensação -> Evaporação -> Precipitação" },
+        { id: 'B', text: "Condensação -> Precipitação -> Evaporação -> Escoamento" },
+        { id: 'C', text: "Evaporação -> Condensação -> Precipitação -> Escoamento" },
+        { id: 'D', text: "Precipitação -> Evaporação -> Condensação -> Precipitação" }
       ],
       correctAnswerId: 'D',
-      explanation: "Runoff is not a process in the water cycle which involves heat gain or heat loss, eliminating options B and C. The cycle involves evaporation (heat gain), condensation (heat loss), and precipitation. Option D shows a valid sequence of these processes."
+      explanation: "O escoamento não é um processo no ciclo da água que envolve ganho ou perda de calor, eliminando as opções B e C. O ciclo envolve evaporação (ganho de calor), condensação (perda de calor) e precipitação. A opção D mostra uma sequência válida desses processos."
     },
     {
       id: 5,
-      text: "Living things have key characteristics which makes them different from non-living things. Which of the following scenarios does not demonstrate these key characteristics of living things?",
+      text: "Os seres vivos têm características chave que os diferenciam dos seres não vivos. Qual dos seguintes cenários não demonstra essas características chave dos seres vivos?",
       options: [
-        { id: 'A', text: "A man heating up an inflated balloon in a water bath." },
-        { id: 'B', text: "A creeper plant growing upwards on the trunk of a tree." },
-        { id: 'C', text: "A hyena consuming contaminated food and falling very sick, eventually dying." },
-        { id: 'D', text: "A baby panda crawling towards some bamboo shoots." }
+        { id: 'A', text: "Um homem aquecendo um balão inflado em um banho-maria." },
+        { id: 'B', text: "Uma planta trepadeira crescendo para cima no tronco de uma árvore." },
+        { id: 'C', text: "Uma hiena consumindo comida contaminada e ficando muito doente, eventualmente morrendo." },
+        { id: 'D', text: "Um filhote de panda rastejando em direção a alguns brotos de bambu." }
       ],
       correctAnswerId: 'A',
-      explanation: "Living things grow, respond to stimuli, and need sustenance. Options B, C, and D all show these characteristics. The balloon expanding in option A is a physical reaction to heat, not a biological characteristic of a living thing."
+      explanation: "Os seres vivos crescem, respondem a estímulos e precisam de sustento. As opções B, C e D mostram todas essas características. O balão se expandindo na opção A é uma reação física ao calor, não uma característica biológica de um ser vivo."
     },
     {
       id: 6,
-      text: "Based on the information given about the platypus, why do male platypuses have venomous spurs on their hind legs?",
+      text: "Com base nas informações fornecidas sobre o ornitorrinco, por que os ornitorrincos machos têm esporões venenosos nas patas traseiras?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-16-at-20.11.14-300x201.png",
       options: [
-        { id: 'A', text: "It allows the male platypus to dig its hind legs into the riverbed, so that it can swim faster, to reach the female platypus." },
-        { id: 'B', text: "It attracts female platypuses to mate with the male platypus." },
-        { id: 'C', text: "It allows the male platypus to tear apart its food." },
-        { id: 'D', text: "It injures predators to protect itself and scares away other male platypuses which may be competing for their mate." }
+        { id: 'A', text: "Permite que o ornitorrinco macho crave suas patas traseiras no leito do rio, para que possa nadar mais rápido e alcançar a fêmea." },
+        { id: 'B', text: "Atrai as fêmeas de ornitorrinco para acasalar com o macho." },
+        { id: 'C', text: "Permite que o ornitorrinco macho despedace sua comida." },
+        { id: 'D', text: "Fere predadores para se proteger e afugenta outros ornitorrincos machos que possam estar competindo por sua parceira." }
       ],
       correctAnswerId: 'D',
-      explanation: "The venomous spurs developed by male platypuses are used for defense against predators and for competing with other males for mates during the mating season."
+      explanation: "Os esporões venenosos desenvolvidos pelos ornitorrincos machos são usados para defesa contra predadores e para competir com outros machos por parceiras durante a estação de acasalamento."
     },
     {
       id: 7,
-      text: "Based on the definitions, which of the following is/are examples of behavioural adaptation? 1. Chameleons moving slowly on branches 2. Grey whales migrating... 3. Giraffes using their long necks... 4. Plants leaning... towards sunlight",
+      text: "Com base nas definições, qual(is) do(s) seguinte(s) é(são) exemplo(s) de adaptação comportamental? 1. Camaleões se movendo lentamente nos galhos 2. Baleias-cinzentas migrando... 3. Girafas usando seus longos pescoços... 4. Plantas se inclinando... em direção à luz solar",
       options: [
-        { id: 'A', text: "Options 2 and 4" },
-        { id: 'B', text: "Options 1, 3 and 4" },
-        { id: 'C', text: "Options 1, 2 and 4" },
-        { id: 'D', text: "All the above" }
+        { id: 'A', text: "Opções 2 e 4" },
+        { id: 'B', text: "Opções 1, 3 e 4" },
+        { id: 'C', text: "Opções 1, 2 e 4" },
+        { id: 'D', text: "Todas as anteriores" }
       ],
       correctAnswerId: 'C',
-      explanation: "A giraffe's long neck is a structural adaptation (a physical feature), not a behavioral one. The other options describe actions or responses to the environment (moving slowly, migrating, growing towards light), which are behavioral adaptations."
+      explanation: "O longo pescoço de uma girafa é uma adaptação estrutural (uma característica física), não comportamental. As outras opções descrevem ações ou respostas ao ambiente (mover-se lentamente, migrar, crescer em direção à luz), que são adaptações comportamentais."
     },
     {
       id: 8,
-      text: "The organism shown belongs to the Agaricaceae family. It has hyphae, gills, and a brownish-black powder (spores) for reproduction. Which of the groups in the flowchart should it be placed under?",
+      text: "O organismo mostrado pertence à família Agaricaceae. Ele possui hifas, lamelas e um pó marrom-escuro (esporos) para reprodução. Em qual dos grupos do fluxograma ele deveria ser colocado?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-16-at-20.05.43.png",
       options: [
-        { id: 'A', text: "Group A" },
-        { id: 'B', text: "Group B" },
-        { id: 'C', text: "Group C" },
-        { id: 'D', text: "Group D" }
+        { id: 'A', text: "Grupo A" },
+        { id: 'B', text: "Grupo B" },
+        { id: 'C', text: "Grupo C" },
+        { id: 'D', text: "Grupo D" }
       ],
       correctAnswerId: 'A',
-      explanation: "The organism described is a fungus. Following the flowchart: Does it take up oxygen? Yes. Does it have scales? No. Does it have spores for reproduction? Yes. This path leads to Group A."
+      explanation: "O organismo descrito é um fungo. Seguindo o fluxograma: Ele absorve oxigênio? Sim. Tem escamas? Não. Tem esporos para reprodução? Sim. Esse caminho leva ao Grupo A."
     },
     {
       id: 9,
-      text: "Rosa submerged a leaf into a beaker of hot water and observed air bubbles escaping from it. Why did this happen?",
+      text: "Rosa submergiu uma folha em um béquer com água quente e observou bolhas de ar escapando dela. Por que isso aconteceu?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-16-at-20.12.31-300x263.png",
       options: [
-        { id: 'A', text: "Air which was trapped in the leaf expanded and escaped as bubbles." },
-        { id: 'B', text: "When water was heated, oxygen in the water escaped as bubbles." },
-        { id: 'C', text: "Air was taken in by the leaf from the water, so that it can survive." },
-        { id: 'D', text: "The leaf was breathing, taking in oxygen and giving out carbon dioxide as bubbles." }
+        { id: 'A', text: "O ar que estava preso na folha se expandiu e escapou como bolhas." },
+        { id: 'B', text: "Quando a água foi aquecida, o oxigênio na água escapou como bolhas." },
+        { id: 'C', text: "O ar foi absorvido pela folha da água, para que ela pudesse sobreviver." },
+        { id: 'D', text: "A folha estava respirando, absorvendo oxigênio e liberando dióxido de carbono como bolhas." }
       ],
       correctAnswerId: 'A',
-      explanation: "Leaves have tiny openings called stomata for gas exchange. The air inside these spaces gets heated by the hot water, causing it to expand. This expanded air then escapes through the stomata, forming bubbles."
+      explanation: "As folhas possuem pequenas aberturas chamadas estômatos para trocas gasosas. O ar dentro desses espaços é aquecido pela água quente, fazendo com que ele se expanda. Esse ar expandido então escapa pelos estômatos, formando bolhas."
     },
     {
       id: 10,
-      text: "Lily swabbed under her fingernails and grew the sample on a petri dish. The round patches that grew were identified as decomposers. What could they be?",
+      text: "Lily passou um cotonete sob as unhas e cultivou a amostra em uma placa de Petri. As manchas redondas que cresceram foram identificadas como decompositores. O que poderiam ser?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-16-at-20.15.50-300x160.png",
       options: [
-        { id: 'A', text: "Oil and dirt" },
-        { id: 'B', text: "Bacteria and fungi" },
-        { id: 'C', text: "Bacteria only" },
-        { id: 'D', text: "Fungi only" }
+        { id: 'A', text: "Óleo e sujeira" },
+        { id: 'B', text: "Bactérias e fungos" },
+        { id: 'C', text: "Apenas bactérias" },
+        { id: 'D', text: "Apenas fungos" }
       ],
       correctAnswerId: 'B',
-      explanation: "Decomposers include both bacteria and fungi, both of which break down organic matter. When Lily scraped her nails, she collected microorganisms like bacteria and fungi, which then grew into visible colonies on the nutrient-rich agar."
+      explanation: "Decompositores incluem tanto bactérias quanto fungos, ambos os quais decompõem matéria orgânica. Quando Lily raspou as unhas, ela coletou microrganismos como bactérias e fungos, que então cresceram em colônias visíveis no ágar rico em nutrientes."
     },
     {
       id: 11,
-      text: "Based on the information about green buildings, how do materials like concrete, stone and earth help to cool houses?",
+      text: "Com base nas informações sobre edifícios verdes, como materiais como concreto, pedra e terra ajudam a resfriar as casas?",
       options: [
-        { id: 'A', text: "They are poor conductors of heat, speeding up the rate of heat gained in the house." },
-        { id: 'B', text: "They are poor conductors of heat, slowing down the rate of heat gained in the house." },
-        { id: 'C', text: "They are good conductors of heat, speeding up the rate of heat loss in the house." },
-        { id: 'D', text: "They are good conductors of heat, slowing down the rate of heat loss in the house." }
+        { id: 'A', text: "São maus condutores de calor, acelerando a taxa de ganho de calor na casa." },
+        { id: 'B', text: "São maus condutores de calor, retardando a taxa de ganho de calor na casa." },
+        { id: 'C', text: "São bons condutores de calor, acelerando a taxa de perda de calor na casa." },
+        { id: 'D', text: "São bons condutores de calor, retardando a taxa de perda de calor na casa." }
       ],
       correctAnswerId: 'B',
-      explanation: "These materials are poor conductors of heat (good insulators). This property means they slow down the rate at which heat from the outside sun is transferred into the cooler interior of the house, thus helping to keep it cool."
+      explanation: "Esses materiais são maus condutores de calor (bons isolantes). Essa propriedade significa que eles retardam a taxa com que o calor do sol externo é transferido para o interior mais frio da casa, ajudando assim a mantê-la fresca."
     },
     {
       id: 12,
-      text: "Tim is consuming a bowl of noodles. Which of the following systems are functioning in order for him to do this? 1. Muscular 2. Skeletal 3. Digestive 4. Circulatory 5. Respiratory",
+      text: "Tim está comendo uma tigela de macarrão. Quais dos seguintes sistemas estão funcionando para que ele possa fazer isso? 1. Muscular 2. Esquelético 3. Digestivo 4. Circulatório 5. Respiratório",
       options: [
-        { id: 'A', text: "1, 3, and 4" },
-        { id: 'B', text: "3 and 4 only" },
-        { id: 'C', text: "1, 3, 4 and 5" },
-        { id: 'D', text: "1, 2, 3, 4 and 5" }
+        { id: 'A', text: "1, 3 e 4" },
+        { id: 'B', text: "Apenas 3 e 4" },
+        { id: 'C', text: "1, 3, 4 e 5" },
+        { id: 'D', text: "1, 2, 3, 4 e 5" }
       ],
       correctAnswerId: 'D',
-      explanation: "All five systems are involved. Muscular and skeletal systems for movement (eating), digestive system for processing food, circulatory system for transporting nutrients, and the respiratory system is constantly functioning to provide oxygen for all these processes."
+      explanation: "Todos os cinco sistemas estão envolvidos. Os sistemas muscular e esquelético para o movimento (comer), o sistema digestivo para processar os alimentos, o sistema circulatório para transportar nutrientes, e o sistema respiratório está constantemente funcionando para fornecer oxigênio para todos esses processos."
     },
     {
       id: 13,
-      text: "Anna ran an experiment to see what nutrient pepsin breaks down. Based on the results, what can she conclude about pepsin?",
+      text: "Anna realizou um experimento para descobrir qual nutriente a pepsina decompõe. Com base nos resultados, o que ela pode concluir sobre a pepsina?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-16-at-20.22.05.png",
       options: [
-        { id: 'A', text: "Pepsin does not break down any of the nutrients in our food." },
-        { id: 'B', text: "Pepsin breaks down all the nutrients partially." },
-        { id: 'C', text: "Pepsin breaks down protein partially." },
-        { id: 'D', text: "Pepsin breaks down carbohydrates and protein partially." }
+        { id: 'A', text: "A pepsina não decompõe nenhum dos nutrientes em nossa comida." },
+        { id: 'B', text: "A pepsina decompõe parcialmente todos os nutrientes." },
+        { id: 'C', text: "A pepsina decompõe parcialmente a proteína." },
+        { id: 'D', text: "A pepsina decompõe parcialmente carboidratos e proteínas." }
       ],
       correctAnswerId: 'C',
-      explanation: "The results show that after adding pepsin, the amounts of carbohydrates and fats remained 'Present', while the amount of protein changed to 'Partially Present'. This indicates that pepsin acts on protein, breaking it down partially."
+      explanation: "Os resultados mostram que, após a adição de pepsina, as quantidades de carboidratos e gorduras permaneceram 'Presentes', enquanto a quantidade de proteína mudou para 'Parcialmente Presente'. Isso indica que a pepsina atua sobre a proteína, decompondo-a parcialmente."
     },
     {
       id: 14,
-      text: "Why did Anna run the experiment on pepsin 3 times?",
+      text: "Por que Anna realizou o experimento sobre a pepsina 3 vezes?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-16-at-20.22.05.png",
       options: [
-        { id: 'A', text: "She was unsure if she ran her experiment correctly, so she repeated the experiment." },
-        { id: 'B', text: "She wanted to perform the experiment in different days to find out if there was any effect." },
-        { id: 'C', text: "She wanted to make sure that the results were reliable." },
-        { id: 'D', text: "She had extra equipment available." }
+        { id: 'A', text: "Ela não tinha certeza se realizou o experimento corretamente, então o repetiu." },
+        { id: 'B', text: "Ela queria realizar o experimento em dias diferentes para descobrir se havia algum efeito." },
+        { id: 'C', text: "Ela queria ter certeza de que os resultados eram confiáveis." },
+        { id: 'D', text: "Ela tinha equipamento extra disponível." }
       ],
       correctAnswerId: 'C',
-      explanation: "In scientific experiments, repeating trials is crucial to ensure that the results are not due to chance or error. By getting consistent results across multiple trials, she can be more confident that her conclusion is reliable."
+      explanation: "Em experimentos científicos, repetir as tentativas é crucial para garantir que os resultados não sejam devidos ao acaso ou a erros. Ao obter resultados consistentes em várias tentativas, ela pode ter mais confiança de que sua conclusão é confiável."
     },
     {
       id: 15,
-      text: "Which of the following is/are not matter? 1. Sponge 2. Shadow 3. Sound energy 4. Light energy",
+      text: "Qual(is) do(s) seguinte(s) não é(são) matéria? 1. Esponja 2. Sombra 3. Energia sonora 4. Energia luminosa",
       options: [
-        { id: 'A', text: "2 only" },
-        { id: 'B', text: "3 and 4" },
-        { id: 'C', text: "2, 3 and 4" },
-        { id: 'D', text: "1 and 2" }
+        { id: 'A', text: "Apenas 2" },
+        { id: 'B', text: "3 e 4" },
+        { id: 'C', text: "2, 3 e 4" },
+        { id: 'D', text: "1 e 2" }
       ],
       correctAnswerId: 'C',
-      explanation: "Matter is defined as anything that has mass and occupies space. A sponge has mass and occupies space. A shadow is the absence of light and has no mass. Sound and light are forms of energy, not matter."
+      explanation: "Matéria é definida como qualquer coisa que tem massa e ocupa espaço. Uma esponja tem massa e ocupa espaço. Uma sombra é a ausência de luz e não tem massa. Som e luz são formas de energia, não matéria."
     },
     {
       id: 16,
-      text: "A dented table tennis ball returned to its original shape in hot water. Which diagram correctly represents the substance inside the ball?",
+      text: "Uma bola de pingue-pongue amassada voltou à sua forma original em água quente. Qual diagrama representa corretamente a substância dentro da bola?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-16-at-20.27.46.png",
       options: [
-        { id: 'A', text: "R (Solid)" },
-        { id: 'B', text: "S (Liquid)" },
-        { id: 'C', text: "T (Gas)" },
-        { id: 'D', text: "U (Solid)" }
+        { id: 'A', text: "R (Sólido)" },
+        { id: 'B', text: "S (Líquido)" },
+        { id: 'C', text: "T (Gás)" },
+        { id: 'D', text: "U (Sólido)" }
       ],
       correctAnswerId: 'C',
-      explanation: "A table tennis ball is filled with air (a gas). Diagram T correctly shows gas particles, which are far apart and move randomly. The heat caused the trapped air to expand and push the dent out."
+      explanation: "Uma bola de pingue-pongue é preenchida com ar (um gás). O diagrama T mostra corretamente as partículas de gás, que estão distantes e se movem aleatoriamente. O calor fez o ar preso se expandir e empurrar o amassado para fora."
     },
     {
       id: 17,
-      text: "Keepers are used to store magnets. What is/are characteristics of keepers? 1. Non-magnetic 2. Good conductors of heat 3. Not brittle 4. Magnetic materials.",
+      text: "Armazenadores são usados para guardar ímãs. Qual(is) é(são) a(s) característica(s) dos armazenadores? 1. Não magnéticos 2. Bons condutores de calor 3. Não são frágeis 4. São materiais magnéticos.",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-16-at-20.29.53.png",
       options: [
-        { id: 'A', text: "2, 3 and 4" },
-        { id: 'B', text: "2 and 4" },
-        { id: 'C', text: "1 and 3" },
-        { id: 'D', text: "1, 2 and 3" }
+        { id: 'A', text: "2, 3 e 4" },
+        { id: 'B', text: "2 e 4" },
+        { id: 'C', text: "1 e 3" },
+        { id: 'D', text: "1, 2 e 3" }
       ],
       correctAnswerId: 'A',
-      explanation: "Keepers are made of soft magnetic materials like iron (4), which are not brittle (3) and are good conductors of heat (2). They complete the magnetic circuit, preventing the magnet from losing its magnetism over time. Since they are magnetic, statement 1 is incorrect."
+      explanation: "Os armazenadores são feitos de materiais magnéticos macios como o ferro (4), que não são frágeis (3) e são bons condutores de calor (2). Eles completam o circuito magnético, impedindo que o ímã perca seu magnetismo com o tempo. Como são magnéticos, a afirmação 1 está incorreta."
     },
     {
       id: 18,
-      text: "Based on the food web, which group contains only consumers?",
+      text: "Com base na teia alimentar, qual grupo contém apenas consumidores?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-16-at-20.31.51.png",
       options: [
-        { id: 'A', text: "Group W" },
-        { id: 'B', text: "Group X" },
-        { id: 'C', text: "Group Y" },
-        { id: 'D', text: "Group Z" }
+        { id: 'A', text: "Grupo W" },
+        { id: 'B', text: "Grupo X" },
+        { id: 'C', text: "Grupo Y" },
+        { id: 'D', text: "Grupo Z" }
       ],
       correctAnswerId: 'D',
-      explanation: "Producers, like plants, create their own food. Consumers obtain energy by eating other organisms. Group Z (Rabbit, Eagle, Lion) is the only group that consists entirely of consumers. The other groups all contain 'Plants', which is a producer."
+      explanation: "Produtores, como as plantas, criam seu próprio alimento. Consumidores obtêm energia comendo outros organismos. O Grupo Z (Coelho, Águia, Leão) é o único grupo que consiste inteiramente de consumidores. Os outros grupos contêm 'Plantas', que é um produtor."
     },
     {
       id: 19,
-      text: "Three glasses of water W, X, and Y have the same temperature but different volumes. Which glass has the higher amount of heat energy?",
+      text: "Três copos de água W, X e Y têm a mesma temperatura, mas volumes diferentes. Qual copo tem a maior quantidade de energia térmica?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-16-at-20.33.19.png",
       options: [
-        { id: 'A', text: "Glass W" },
-        { id: 'B', text: "Glass X" },
-        { id: 'C', text: "Glass Y" },
-        { id: 'D', text: "All 3 glasses of water have the same amount of heat energy." }
+        { id: 'A', text: "Copo W" },
+        { id: 'B', text: "Copo X" },
+        { id: 'C', text: "Copo Y" },
+        { id: 'D', text: "Todos os 3 copos de água têm a mesma quantidade de energia térmica." }
       ],
       correctAnswerId: 'C',
-      explanation: "Temperature is the average kinetic energy of particles, while heat energy is the total kinetic energy. Even though the temperature is the same, Glass Y has the most water (greatest mass), meaning it contains more particles and therefore has the highest total heat energy."
+      explanation: "A temperatura é a energia cinética média das partículas, enquanto a energia térmica é a energia cinética total. Embora a temperatura seja a mesma, o Copo Y tem mais água (maior massa), o que significa que contém mais partículas e, portanto, tem a maior energia térmica total."
     },
     {
       id: 20,
-      text: "Which of the statements correctly explain the mechanism of goosebumps keeping us warm?",
+      text: "Qual das afirmações explica corretamente o mecanismo dos arrepios para nos manter aquecidos?",
       options: [
-        { id: 'A', text: "When the tiny hairs on our skin stand, it allows heat to be absorbed from the surrounding air directly, and this keeps us warm." },
-        { id: 'B', text: "When the tiny hairs on our skin stand, it traps air, which is a poor conductor of heat. Hence, reducing heat loss and keeping us warm." },
-        { id: 'C', text: "When the tiny hairs on our skin stand, it traps air, which is a good conductor of heat. Hence, more heat is gained from the surrounding air which keeps us warm." },
-        { id: 'D', text: "When the tiny hairs on our skin stand, it allows more of our body heat to reach the skin surface, keeping us warm." }
+        { id: 'A', text: "Quando os pelos finos da nossa pele se eriçam, permite que o calor seja absorvido diretamente do ar circundante, e isso nos mantém aquecidos." },
+        { id: 'B', text: "Quando os pelos finos da nossa pele se eriçam, eles prendem o ar, que é um mau condutor de calor. Assim, reduz a perda de calor e nos mantém aquecidos." },
+        { id: 'C', text: "Quando os pelos finos da nossa pele se eriçam, eles prendem o ar, que é um bom condutor de calor. Assim, mais calor é ganho do ar circundante, o que nos mantém aquecidos." },
+        { id: 'D', text: "Quando os pelos finos da nossa pele se eriçam, permite que mais do nosso calor corporal atinja a superfície da pele, nos mantendo aquecidos." }
       ],
       correctAnswerId: 'B',
-      explanation: "The erect hairs trap a layer of air close to the skin. Air is a poor conductor of heat (an insulator), so this trapped layer reduces the amount of heat lost from the body to the colder surroundings."
+      explanation: "Os pelos eriçados prendem uma camada de ar perto da pele. O ar é um mau condutor de calor (um isolante), então essa camada presa reduz a quantidade de calor perdida do corpo para o ambiente mais frio."
     },
     {
       id: 21,
-      text: "Which of the following correctly demonstrates living things responding to changes?",
+      text: "Qual das seguintes opções demonstra corretamente os seres vivos respondendo a mudanças?",
       options: [
-        { id: 'A', text: "Polar bears feeding on seals." },
-        { id: 'B', text: "Silkworms developing into silk moths." },
-        { id: 'C', text: "A cat playing with a ball of yarn." },
-        { id: 'D', text: "Birds flying away upon hearing a shot fired by hunters." }
+        { id: 'A', text: "Ursos polares se alimentando de focas." },
+        { id: 'B', text: "Bichos-da-seda se transformando em mariposas." },
+        { id: 'C', text: "Um gato brincando com um novelo de lã." },
+        { id: 'D', text: "Pássaros voando para longe ao ouvir um tiro disparado por caçadores." }
       ],
       correctAnswerId: 'D',
-      explanation: "Responding to changes (or stimuli) is a key characteristic of life. The loud shot is a stimulus, and the birds flying away is the response to escape potential danger. The other options describe feeding, growth, or play, which are not direct responses to an external change."
+      explanation: "Responder a mudanças (ou estímulos) é uma característica chave da vida. O tiro alto é um estímulo, e os pássaros voando para longe é a resposta para escapar do perigo potencial. As outras opções descrevem alimentação, crescimento ou brincadeira, que não são respostas diretas a uma mudança externa."
     },
     {
       id: 22,
-      text: "Manatees in Florida face a 'lose-lose situation' due to pollution and cold winters. Which basic needs are lacking? 1. Air 2. Food 3. Water 4. Warmth",
+      text: "Os peixes-boi na Flórida enfrentam uma situação de 'perde-perde' devido à poluição e aos invernos frios. Quais necessidades básicas estão faltando? 1. Ar 2. Comida 3. Água 4. Calor",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-16-at-20.38.29.png",
       options: [
-        { id: 'A', text: "2 and 4" },
-        { id: 'B', text: "2 and 3" },
-        { id: 'C', text: "1 and 4" },
-        { id: 'D', text: "All the above" }
+        { id: 'A', text: "2 e 4" },
+        { id: 'B', text: "2 e 3" },
+        { id: 'C', text: "1 e 4" },
+        { id: 'D', text: "Todas as anteriores" }
       ],
       correctAnswerId: 'A',
-      explanation: "The text states that manatees can freeze to death if they stay (lack of warmth) or starve if they migrate to warmer waters where their food source (seagrass) has been depleted by pollution (lack of food). Therefore, food and warmth are the critical needs that are lacking."
+      explanation: "O texto afirma que os peixes-boi podem morrer de frio se ficarem (falta de calor) ou morrer de fome se migrarem para águas mais quentes onde sua fonte de alimento (ervas marinhas) foi esgotada pela poluição (falta de comida). Portanto, comida e calor são as necessidades críticas que estão faltando."
     },
     {
       id: 23,
-      text: "Why do some plants give off substances such as methyl jasmonate to deter insects like caterpillars?",
+      text: "Por que algumas plantas liberam substâncias como o jasmonato de metila para deter insetos como as lagartas?",
       options: [
-        { id: 'A', text: "Caterpillars attract birds which will feed on plants and damage the plant." },
-        { id: 'B', text: "The plant wants to get rid of caterpillars so that it has more space to grow." },
-        { id: 'C', text: "The plant protects its leaves as leaves are crucial in making food for the plant." },
-        { id: 'D', text: "Caterpillars feed on the fruits of the plant and reduces the amount of food left for the plant." }
+        { id: 'A', text: "As lagartas atraem pássaros que se alimentam das plantas e as danificam." },
+        { id: 'B', text: "A planta quer se livrar das lagartas para ter mais espaço para crescer." },
+        { id: 'C', text: "A planta protege suas folhas, pois as folhas são cruciais para a produção de alimento para a planta." },
+        { id: 'D', text: "As lagartas se alimentam dos frutos da planta e reduzem a quantidade de alimento disponível para a planta." }
       ],
       correctAnswerId: 'C',
-      explanation: "Leaves are the primary site of photosynthesis, the process through which plants make their own food. By producing a substance that makes the leaves taste bad to caterpillars, the plant is protecting its 'food factory' to ensure its own survival and growth."
+      explanation: "As folhas são o principal local da fotossíntese, o processo pelo qual as plantas produzem seu próprio alimento. Ao produzir uma substância que torna as folhas desagradáveis para as lagartas, a planta está protegendo sua 'fábrica de alimentos' para garantir sua própria sobrevivência e crescimento."
     },
     {
       id: 24,
-      text: "The picture shows a root system commonly found in root vegetables like beetroot. Which type of root system is this?",
+      text: "A imagem mostra um sistema radicular comumente encontrado em vegetais de raiz como a beterraba. Que tipo de sistema radicular é este?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-16-at-20.42.31-292x300.png",
       options: [
-        { id: 'A', text: "Drainage" },
-        { id: 'B', text: "Tube" },
-        { id: 'C', text: "Tap" },
-        { id: 'D', text: "Fibrous" }
+        { id: 'A', text: "Drenagem" },
+        { id: 'B', text: "Tubular" },
+        { id: 'C', text: "Pivotante" },
+        { id: 'D', text: "Fasciculado" }
       ],
       correctAnswerId: 'C',
-      explanation: "This is a taproot system, which is characterized by a single, large, central root that grows deep into the soil. Smaller, lateral roots branch off from this main taproot. Beetroot is a classic example of a modified taproot used for food storage."
+      explanation: "Este é um sistema radicular pivotante, que é caracterizado por uma única raiz grande e central que cresce profundamente no solo. Raízes laterais menores se ramificam a partir desta raiz principal. A beterraba é um exemplo clássico de uma raiz pivotante modificada para armazenamento de alimentos."
     },
     {
       id: 25,
-      text: "Based on the information about the spotted salamander, what can be concluded?",
+      text: "Com base nas informações sobre a salamandra-pintada, o que pode ser concluído?",
       image: "http://vanda.simcc.org/wp-content/uploads/2025/04/Screenshot-2025-04-16-at-20.44.09.png",
       options: [
-        { id: 'A', text: "It is a cold-blooded animal." },
-        { id: 'B', text: "It is a reptile." },
-        { id: 'C', text: "It only breathes through gills." },
-        { id: 'D', text: "It is an invertebrate." }
+        { id: 'A', text: "É um animal de sangue frio." },
+        { id: 'B', text: "É um réptil." },
+        { id: 'C', text: "Respira apenas por brânquias." },
+        { id: 'D', text: "É um invertebrado." }
       ],
       correctAnswerId: 'A',
-      explanation: "The spotted salamander is an amphibian, as it lays eggs and its young live in water before developing into land-dwelling adults. A key characteristic of all amphibians is that they are cold-blooded (ectothermic)."
+      explanation: "A salamandra-pintada é um anfíbio, pois põe ovos e seus filhotes vivem na água antes de se desenvolverem em adultos terrestres. Uma característica chave de todos os anfíbios é que eles são de sangue frio (ectotérmicos)."
     }
   ]
 };
