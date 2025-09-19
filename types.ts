@@ -32,6 +32,7 @@ export interface StudyMaterial {
     imageUrl: string;
     videoUrl: string;
     tips: string[];
+    suggestedQuestions: string[];
 }
 
 export interface ChatMessage {

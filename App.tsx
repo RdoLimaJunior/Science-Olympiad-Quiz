@@ -3,10 +3,9 @@ import HomeScreen from './components/HomeScreen';
 import PracticeFlow from './components/PracticeFlow';
 import StudyScreen from './components/StudyScreen';
 import PerformanceScreen from './components/PerformanceScreen';
-import AITutorScreen from './components/AITutorScreen';
 import type { Question, UserAnswer, QuizResultHistory } from './types';
 
-type AppScreen = 'home' | 'practice' | 'study' | 'performance' | 'tutor';
+type AppScreen = 'home' | 'practice' | 'study' | 'performance';
 
 const HISTORY_KEY = 'quizHistory';
 
@@ -62,8 +61,6 @@ function App() {
         return <StudyScreen onGoBack={handleGoBack} />;
       case 'performance':
         return <PerformanceScreen history={history} onGoBack={handleGoBack} />;
-      case 'tutor':
-        return <AITutorScreen onGoBack={handleGoBack} />;
       case 'home':
       default:
         return <HomeScreen onNavigate={handleNavigate} />;

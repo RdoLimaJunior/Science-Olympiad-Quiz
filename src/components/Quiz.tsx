@@ -2,6 +2,7 @@ import React, { useState, useCallback } from 'react';
 import type { Question, UserAnswer, Option } from '../types';
 import { CheckCircleIcon, XCircleIcon } from './icons';
 import Modal from './Modal';
+import { useLanguage } from '../contexts/LanguageContext';
 
 interface QuizProps {
   questions: Question[];
@@ -10,6 +11,7 @@ interface QuizProps {
 }
 
 const Quiz: React.FC<QuizProps> = ({ questions, onQuizComplete, onQuit }) => {
+  const { t } = useLanguage();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswerId, setSelectedAnswerId] = useState<string | null>(null);
   const [userAnswers, setUserAnswers] = useState<UserAnswer[]>([]);
@@ -72,12 +74,12 @@ const Quiz: React.FC<QuizProps> = ({ questions, onQuizComplete, onQuit }) => {
         isOpen={isQuitModalOpen}
         onClose={() => setIsQuitModalOpen(false)}
         onConfirm={onQuit}
-        title="Tem certeza que deseja sair?"
+        title={t('quiz.quit_title')}
       >
-        <p className="text-slate-400">Seu progresso nesta prova será perdido.</p>
+        <p className="text-slate-400">{t('quiz.quit_body')}</p>
       </Modal>
 
-      <div className="max-w-4xl mx-auto p-4 md:p-8">
+      <div className="max-w-4xl mx-auto p-4 md:p-8 animate-fade-in">
         <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-2xl shadow-2xl p-6 md:p-8">
           {/* Progress Bar and Header */}
           <div className="mb-6">
@@ -85,11 +87,11 @@ const Quiz: React.FC<QuizProps> = ({ questions, onQuizComplete, onQuit }) => {
                 <button 
                   onClick={() => setIsQuitModalOpen(true)}
                   className="text-sm text-slate-400 hover:text-cyan-400 transition"
-                  aria-label="Sair da prova"
+                  aria-label={t('quiz.quit_label')}
                 >
-                  &larr; Sair
+                  &larr; {t('quiz.leave')}
                 </button>
-              <span>Questão {currentQuestionIndex + 1} de {questions.length}</span>
+              <span>{t('quiz.question', currentQuestionIndex + 1, questions.length)}</span>
             </div>
             <div className="w-full bg-slate-700 rounded-full h-2.5">
               <div
@@ -104,7 +106,7 @@ const Quiz: React.FC<QuizProps> = ({ questions, onQuizComplete, onQuit }) => {
             {currentQuestion.image && (
               <img 
                 src={currentQuestion.image} 
-                alt="Ilustração da questão" 
+                alt={t('quiz.question_illustration')} 
                 className="w-full max-h-80 object-contain rounded-lg mb-4 bg-slate-700 p-2"
               />
             )}
@@ -119,6 +121,7 @@ const Quiz: React.FC<QuizProps> = ({ questions, onQuizComplete, onQuit }) => {
                 onClick={() => handleAnswerSelect(option.id)}
                 disabled={isAnswered}
                 className={`p-4 rounded-lg text-left transition-all duration-300 w-full ${getOptionClass(option)}`}
+                aria-label={t('quiz.option_label', option.id, option.text)}
               >
                 <span className="font-bold mr-2">{option.id}.</span> {option.text}
               </button>
@@ -133,20 +136,20 @@ const Quiz: React.FC<QuizProps> = ({ questions, onQuizComplete, onQuit }) => {
                 disabled={selectedAnswerId === null}
                 className="w-full bg-cyan-500 text-white font-bold py-3 px-6 rounded-lg text-lg transition enabled:hover:bg-cyan-600 disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                Confirmar Resposta
+                {t('quiz.submit')}
               </button>
             ) : (
-              <div className="text-center p-4 rounded-lg bg-slate-700/80">
+              <div className="text-center p-4 rounded-lg bg-slate-700/80 animate-fade-in">
                 <div className="flex items-center justify-center mb-2">
                   {userAnswers[userAnswers.length - 1]?.isCorrect ? (
                       <>
                           <CheckCircleIcon className="w-8 h-8 text-green-400 mr-2" />
-                          <h3 className="text-2xl font-bold text-green-400">Correto!</h3>
+                          <h3 className="text-2xl font-bold text-green-400">{t('quiz.correct')}</h3>
                       </>
                   ) : (
                       <>
                           <XCircleIcon className="w-8 h-8 text-red-400 mr-2" />
-                          <h3 className="text-2xl font-bold text-red-400">Incorreto</h3>
+                          <h3 className="text-2xl font-bold text-red-400">{t('quiz.incorrect')}</h3>
                       </>
                   )}
                 </div>
@@ -155,7 +158,7 @@ const Quiz: React.FC<QuizProps> = ({ questions, onQuizComplete, onQuit }) => {
                   onClick={handleNextQuestion}
                   className="w-full bg-slate-600 text-white font-bold py-3 px-6 rounded-lg text-lg hover:bg-slate-500 transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-800 focus:ring-slate-500"
                 >
-                  {currentQuestionIndex < questions.length - 1 ? 'Próxima Questão' : 'Finalizar Prova'}
+                  {currentQuestionIndex < questions.length - 1 ? t('quiz.next_question') : t('quiz.finish_quiz')}
                 </button>
               </div>
             )}

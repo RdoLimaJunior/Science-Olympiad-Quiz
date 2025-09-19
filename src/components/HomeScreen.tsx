@@ -1,45 +1,46 @@
 import React from 'react';
+import { BookOpenIcon, PencilSquareIcon, ChartBarIcon } from './icons';
+import { useLanguage } from '../contexts/LanguageContext';
 
 interface HomeScreenProps {
-  onNavigate: (screen: 'practice' | 'study' | 'performance' | 'tutor') => void;
+  onNavigate: (screen: 'practice' | 'study' | 'performance') => void;
 }
 
 const HomeScreen: React.FC<HomeScreenProps> = ({ onNavigate }) => {
+  const { t } = useLanguage();
+
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-4 text-center">
-      <div className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-2xl shadow-2xl max-w-2xl w-full border border-slate-700">
-        <h1 className="text-4xl md:text-5xl font-bold text-cyan-400 mb-2">Olimpíada de Ciências</h1>
-        <p className="text-slate-300 mb-8 text-lg">Seu centro de preparação VNJSO</p>
+    <div className="flex flex-col items-center justify-center min-h-screen p-4 text-center animate-fade-in">
+      <div className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-2xl shadow-2xl max-w-4xl w-full border border-slate-700">
+        <h1 className="text-4xl md:text-5xl font-bold text-cyan-400 mb-2">{t('home.title')}</h1>
+        <p className="text-slate-300 mb-8 text-lg">{t('home.subtitle')}</p>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <button
-            onClick={() => onNavigate('practice')}
-            className="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-6 px-6 rounded-lg text-xl transition-transform duration-300 ease-in-out transform hover:scale-105"
-          >
-            Praticar
-          </button>
-          <button
-            onClick={() => onNavigate('study')}
-            className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-6 px-6 rounded-lg text-xl transition-transform duration-300 ease-in-out transform hover:scale-105"
-          >
-            Estudar
-          </button>
-          <button
-            onClick={() => onNavigate('performance')}
-            className="bg-sky-500 hover:bg-sky-600 text-white font-bold py-6 px-6 rounded-lg text-xl transition-transform duration-300 ease-in-out transform hover:scale-105"
-          >
-            Meu Desempenho
-          </button>
-          <button
-            onClick={() => onNavigate('tutor')}
-            className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-6 px-6 rounded-lg text-xl transition-transform duration-300 ease-in-out transform hover:scale-105"
-          >
-            Tutor com IA
-          </button>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <NavButton onClick={() => onNavigate('study')} text={t('home.study')} icon={<BookOpenIcon className="w-8 h-8"/>} color="teal" />
+          <NavButton onClick={() => onNavigate('practice')} text={t('home.practice')} icon={<PencilSquareIcon className="w-8 h-8"/>} color="cyan" />
+          <NavButton onClick={() => onNavigate('performance')} text={t('home.performance')} icon={<ChartBarIcon className="w-8 h-8"/>} color="sky" />
         </div>
       </div>
     </div>
   );
 };
+
+const NavButton: React.FC<{onClick: () => void; text: string; icon: React.ReactNode; color: string}> = ({ onClick, text, icon, color }) => {
+    const colorClasses: Record<string, string> = {
+        teal: 'bg-teal-500/80 hover:bg-teal-500/100',
+        cyan: 'bg-cyan-500/80 hover:bg-cyan-500/100',
+        sky: 'bg-sky-500/80 hover:bg-sky-500/100',
+    };
+
+    return (
+        <button
+            onClick={onClick}
+            className={`flex items-center justify-center gap-4 text-white font-bold py-6 px-6 rounded-lg text-xl transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg hover:shadow-xl ${colorClasses[color]}`}
+        >
+            {icon}
+            <span>{text}</span>
+        </button>
+    );
+}
 
 export default HomeScreen;

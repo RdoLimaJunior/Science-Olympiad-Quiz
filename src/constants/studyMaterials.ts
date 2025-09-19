@@ -11,6 +11,12 @@ export const studyMaterials: Record<string, StudyMaterial> = {
       "Faça pequenos experimentos em casa, como observar o gelo derretendo, para entender as mudanças de estado da matéria.",
       "Desenhe o ciclo da água. Isso ajuda a memorizar as etapas: evaporação, condensação, precipitação e coleta.",
       "Crie cartões de memória com as características de cada grupo de ser vivo (mamíferos, répteis, etc.)."
+    ],
+    suggestedQuestions: [
+      "Qual a diferença entre um ser vivo e um não vivo?",
+      "Me explique o ciclo da água de forma simples.",
+      "O que são os estados da matéria?",
+      "Por que os fungos não são considerados plantas?"
     ]
   },
   "Matemática": {
@@ -23,6 +29,12 @@ export const studyMaterials: Record<string, StudyMaterial> = {
       "Use objetos do cotidiano (como frutas ou lápis) para visualizar problemas de adição e subtração.",
       "Procure por formas geométricas em sua casa e na rua. Tente nomeá-las!",
       "Desafie seus amigos e familiares com problemas de lógica. Aprender em grupo é mais divertido."
+    ],
+    suggestedQuestions: [
+      "Como posso usar a multiplicação no dia a dia?",
+      "Qual a diferença entre área e perímetro?",
+      "Me dê um exemplo de um problema de lógica.",
+      "Para que serve a geometria?"
     ]
   },
   "Lógica": {
@@ -35,6 +47,12 @@ export const studyMaterials: Record<string, StudyMaterial> = {
       "Ao encontrar um problema, divida-o em partes menores. Resolva um passo de cada vez.",
       "Tente explicar seu raciocínio para outra pessoa. Ensinar é uma ótima forma de aprender.",
       "Não tenha medo de errar! Cada erro é uma oportunidade para entender onde seu raciocínio pode melhorar."
+    ],
+    suggestedQuestions: [
+      "Como posso melhorar meu raciocínio lógico?",
+      "O que é um argumento dedutivo?",
+      "Me dê um exemplo de um quebra-cabeça de lógica.",
+      "Por que a lógica é importante na ciência?"
     ]
   }
 };

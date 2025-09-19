@@ -32,6 +32,8 @@ export interface StudyMaterial {
     imageUrl: string;
     videoUrl: string;
     tips: string[];
+    // FIX: Added 'suggestedQuestions' to the StudyMaterial type to resolve a property access error.
+    suggestedQuestions: string[];
 }
 
 export interface ChatMessage {

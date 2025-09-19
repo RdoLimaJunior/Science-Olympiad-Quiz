@@ -1,7 +1,8 @@
 import React, { useMemo } from 'react';
 import type { Question, UserAnswer } from '../types';
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 import { CheckCircleIcon, XCircleIcon } from './icons';
+import { useLanguage } from '../contexts/LanguageContext';
 
 interface ResultsProps {
   userAnswers: UserAnswer[];
@@ -11,23 +12,24 @@ interface ResultsProps {
 }
 
 const Results: React.FC<ResultsProps> = ({ userAnswers, questions, onRestart, onReturnToSelection }) => {
+  const { t } = useLanguage();
   const score = useMemo(() => userAnswers.filter(answer => answer.isCorrect).length, [userAnswers]);
   const percentage = useMemo(() => (score / questions.length) * 100, [score, questions.length]);
 
   const chartData = [
-    { name: 'Sua Pontuação', value: percentage },
+    { name: t('results.your_score'), value: percentage },
   ];
 
   return (
-    <div className="max-w-4xl mx-auto p-4 md:p-8">
+    <div className="max-w-4xl mx-auto p-4 md:p-8 animate-fade-in">
       <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-2xl shadow-2xl p-6 md:p-8">
-        <h1 className="text-4xl font-bold text-center text-cyan-400 mb-4">Resultado do Simulado</h1>
+        <h1 className="text-4xl font-bold text-center text-cyan-400 mb-4">{t('results.title')}</h1>
         <p className="text-center text-slate-300 text-xl mb-6">
-          Você acertou {score} de {questions.length} questões.
+          {t('results.score_text', score, questions.length)}
         </p>
 
         <div className="bg-slate-700/80 p-6 rounded-lg mb-8 text-center">
-          <p className="text-2xl font-bold">Percentual de acerto: {percentage.toFixed(2)}%</p>
+          <p className="text-2xl font-bold">{t('results.percentage', percentage.toFixed(2))}</p>
         </div>
         
         <div className="h-40 mb-8">
@@ -47,19 +49,19 @@ const Results: React.FC<ResultsProps> = ({ userAnswers, questions, onRestart, on
             onClick={onRestart}
             className="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-8 rounded-full text-xl transition-transform duration-300 ease-in-out transform hover:scale-105 w-full sm:w-auto"
           >
-            Refazer Prova
+            {t('results.redo_quiz')}
           </button>
           <button
             onClick={onReturnToSelection}
             className="bg-slate-600 hover:bg-slate-500 text-white font-bold py-3 px-8 rounded-full text-xl transition-transform duration-300 ease-in-out transform hover:scale-105 w-full sm:w-auto"
           >
-            Mudar de Ano
+            {t('results.change_year')}
           </button>
         </div>
         
         <div>
-          <h2 className="text-2xl font-bold text-center mb-4">Revisão das Respostas</h2>
-          <div className="space-y-4">
+          <h2 className="text-2xl font-bold text-center mb-4">{t('results.review_answers')}</h2>
+          <div className="space-y-4 max-h-[50vh] overflow-y-auto pr-2">
             {questions.map((question, index) => {
               const userAnswer = userAnswers.find(a => a.questionId === question.id);
               const isCorrect = userAnswer?.isCorrect ?? false;
@@ -71,7 +73,7 @@ const Results: React.FC<ResultsProps> = ({ userAnswers, questions, onRestart, on
               return (
                 <div key={question.id} className={`bg-slate-700/80 p-4 rounded-lg ${borderClass}`}>
                   <p className="font-semibold mb-2 pl-2">
-                    Questão {index + 1}: {question.text.split('\n')[0]}
+                    {t('results.question', index + 1, question.text.split('\n')[0])}
                   </p>
                   <div className="flex items-start space-x-2 mb-2 pl-2">
                     {isCorrect ? 
@@ -79,9 +81,9 @@ const Results: React.FC<ResultsProps> = ({ userAnswers, questions, onRestart, on
                       <XCircleIcon className="w-6 h-6 text-red-400 flex-shrink-0 mt-1" />
                     }
                     <div>
-                      <p className="text-slate-300">Sua resposta: <span className={isCorrect ? 'text-green-400' : 'text-red-400'}>{selectedOption?.text || 'Não respondida'}</span></p>
+                      <p className="text-slate-300">{t('results.your_answer')}<span className={isCorrect ? 'text-green-400' : 'text-red-400'}>{selectedOption?.text || t('results.unanswered')}</span></p>
                       {!isCorrect && (
-                        <p className="text-slate-300">Resposta correta: <span className="text-green-400">{correctOption?.text}</span></p>
+                        <p className="text-slate-300">{t('results.correct_answer')}<span className="text-green-400">{correctOption?.text}</span></p>
                       )}
                     </div>
                   </div>
