@@ -18,7 +18,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, onConfirm, title, childr
       aria-modal="true"
       aria-labelledby="modal-title"
     >
-      <div className="bg-slate-800 rounded-2xl shadow-2xl max-w-sm w-full p-6 border border-slate-700">
+      <div className="bg-slate-800 rounded-2xl shadow-2xl max-w-sm w-full p-6 border border-slate-700 animate-fade-in">
         <h2 id="modal-title" className="text-2xl font-bold text-slate-100 mb-4">{title}</h2>
         <div className="mb-6">{children}</div>
         <div className="flex justify-end gap-4">
@@ -26,13 +26,13 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, onConfirm, title, childr
             onClick={onClose}
             className="bg-slate-600 hover:bg-slate-500 text-white font-bold py-2 px-6 rounded-lg transition"
           >
-            Cancel
+            Cancelar
           </button>
           <button
             onClick={onConfirm}
             className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-lg transition"
           >
-            Confirm
+            Confirmar
           </button>
         </div>
       </div>

@@ -1,0 +1,44 @@
+import React from 'react';
+import { BookOpenIcon, PencilSquareIcon, ChartBarIcon, SparklesIcon } from './icons';
+
+interface HomeScreenProps {
+  onNavigate: (screen: 'practice' | 'study' | 'performance' | 'tutor') => void;
+}
+
+const HomeScreen: React.FC<HomeScreenProps> = ({ onNavigate }) => {
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen p-4 text-center animate-fade-in">
+      <div className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-2xl shadow-2xl max-w-3xl w-full border border-slate-700">
+        <h1 className="text-4xl md:text-5xl font-bold text-cyan-400 mb-2">Olimpíada de Ciências</h1>
+        <p className="text-slate-300 mb-8 text-lg">Seu centro de preparação para a Vanda</p>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <NavButton onClick={() => onNavigate('study')} text="Estudar" icon={<BookOpenIcon />} color="teal" />
+          <NavButton onClick={() => onNavigate('practice')} text="Praticar" icon={<PencilSquareIcon />} color="cyan" />
+          <NavButton onClick={() => onNavigate('performance')} text="Meu Desempenho" icon={<ChartBarIcon />} color="sky" />
+          <NavButton onClick={() => onNavigate('tutor')} text="Tutor com IA" icon={<SparklesIcon />} color="indigo" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const NavButton: React.FC<{onClick: () => void; text: string; icon: React.ReactNode; color: string}> = ({ onClick, text, icon, color }) => {
+    const colorClasses = {
+        teal: 'bg-teal-500/80 hover:bg-teal-500/100',
+        cyan: 'bg-cyan-500/80 hover:bg-cyan-500/100',
+        sky: 'bg-sky-500/80 hover:bg-sky-500/100',
+        indigo: 'bg-indigo-500/80 hover:bg-indigo-500/100',
+    };
+    return (
+        <button
+            onClick={onClick}
+            className={`flex items-center justify-center gap-4 text-white font-bold py-6 px-6 rounded-lg text-xl transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg hover:shadow-xl ${colorClasses[color]}`}
+        >
+            <div className="w-8 h-8">{icon}</div>
+            <span>{text}</span>
+        </button>
+    );
+}
+
+export default HomeScreen;
